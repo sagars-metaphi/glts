@@ -1,0 +1,317 @@
+{
+  "documents": 20,
+  "failures": [
+    {
+      "documentId": "style-b-sample-002",
+      "style": "style-b",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "西安金鼎投资股份有很公司",
+      "extractedValue": "西安金鼎投资股份有很公司",
+      "expected": "西安金鼎投资股份有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-c-sample-002",
+      "style": "style-c",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "南京宏图工程有很公司",
+      "extractedValue": "南京宏图工程有很公司",
+      "expected": "南京宏图工程有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-d-sample-002",
+      "style": "style-d",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "深圳博雅文化有很公司",
+      "extractedValue": "深圳博雅文化有很公司",
+      "expected": "深圳博雅文化有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-e-sample-001",
+      "style": "style-e",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "上海恒佰贸易有很公司",
+      "extractedValue": "上海恒佰贸易有很公司",
+      "expected": "上海恒信贸易有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-e-sample-002",
+      "style": "style-e",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "上海瑞丰生物有很公司",
+      "extractedValue": "上海瑞丰生物有很公司",
+      "expected": "上海瑞丰生物有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-f-sample-001",
+      "style": "style-f",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "庆星辰传媒有限公司",
+      "extractedValue": "庆星辰传媒有限公司",
+      "expected": "重庆星辰传媒有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-g-sample-001",
+      "style": "style-g",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "苏州天宇通信有很公司",
+      "extractedValue": "苏州天宇通信有很公司",
+      "expected": "苏州天宇通信有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-g-sample-002",
+      "style": "style-g",
+      "startLabel": "名称",
+      "endLabel": null,
+      "rawSegment": "",
+      "extractedValue": "",
+      "expected": "成都创联电子有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-h-sample-002",
+      "style": "style-h",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "南京浦东物流有限_公司",
+      "extractedValue": "南京浦东物流有限_公司",
+      "expected": "南京浦东物流有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-i-sample-001",
+      "style": "style-i",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "西安华腾科技有限公司Capital",
+      "extractedValue": "西安华腾科技有限公司Capital",
+      "expected": "西安华腾科技有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-i-sample-002",
+      "style": "style-i",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "成都恒信贸易有限公司Capital",
+      "extractedValue": "成都恒信贸易有限公司Capital",
+      "expected": "成都恒信贸易有限公司",
+      "exactMatch": false
+    }
+  ],
+  "all": [
+    {
+      "documentId": "style-a-sample-001",
+      "style": "style-a",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "深圳金鼎投资有限公司",
+      "extractedValue": "深圳金鼎投资有限公司",
+      "expected": "深圳金鼎投资有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-a-sample-002",
+      "style": "style-a",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "西安星辰传媒有限公司",
+      "extractedValue": "西安星辰传媒有限公司",
+      "expected": "西安星辰传媒有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-b-sample-001",
+      "style": "style-b",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "杭州智云软件有限公司",
+      "extractedValue": "杭州智云软件有限公司",
+      "expected": "杭州智云软件有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-b-sample-002",
+      "style": "style-b",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "西安金鼎投资股份有很公司",
+      "extractedValue": "西安金鼎投资股份有很公司",
+      "expected": "西安金鼎投资股份有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-c-sample-001",
+      "style": "style-c",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "苏州瑞丰生物有限公司",
+      "extractedValue": "苏州瑞丰生物有限公司",
+      "expected": "苏州瑞丰生物有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-c-sample-002",
+      "style": "style-c",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "南京宏图工程有很公司",
+      "extractedValue": "南京宏图工程有很公司",
+      "expected": "南京宏图工程有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-d-sample-001",
+      "style": "style-d",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "北京星辰传媒有限公司",
+      "extractedValue": "北京星辰传媒有限公司",
+      "expected": "北京星辰传媒有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-d-sample-002",
+      "style": "style-d",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "深圳博雅文化有很公司",
+      "extractedValue": "深圳博雅文化有很公司",
+      "expected": "深圳博雅文化有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-e-sample-001",
+      "style": "style-e",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "上海恒佰贸易有很公司",
+      "extractedValue": "上海恒佰贸易有很公司",
+      "expected": "上海恒信贸易有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-e-sample-002",
+      "style": "style-e",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "上海瑞丰生物有很公司",
+      "extractedValue": "上海瑞丰生物有很公司",
+      "expected": "上海瑞丰生物有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-f-sample-001",
+      "style": "style-f",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "庆星辰传媒有限公司",
+      "extractedValue": "庆星辰传媒有限公司",
+      "expected": "重庆星辰传媒有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-f-sample-002",
+      "style": "style-f",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "成都星辰传媒股份有限公司",
+      "extractedValue": "成都星辰传媒股份有限公司",
+      "expected": "成都星辰传媒股份有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-g-sample-001",
+      "style": "style-g",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "苏州天宇通信有很公司",
+      "extractedValue": "苏州天宇通信有很公司",
+      "expected": "苏州天宇通信有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-g-sample-002",
+      "style": "style-g",
+      "startLabel": "名称",
+      "endLabel": null,
+      "rawSegment": "",
+      "extractedValue": "",
+      "expected": "成都创联电子有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-h-sample-001",
+      "style": "style-h",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "武汉博雅文化有限公司",
+      "extractedValue": "武汉博雅文化有限公司",
+      "expected": "武汉博雅文化有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-h-sample-002",
+      "style": "style-h",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "南京浦东物流有限_公司",
+      "extractedValue": "南京浦东物流有限_公司",
+      "expected": "南京浦东物流有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-i-sample-001",
+      "style": "style-i",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "西安华腾科技有限公司Capital",
+      "extractedValue": "西安华腾科技有限公司Capital",
+      "expected": "西安华腾科技有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-i-sample-002",
+      "style": "style-i",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "成都恒信贸易有限公司Capital",
+      "extractedValue": "成都恒信贸易有限公司Capital",
+      "expected": "成都恒信贸易有限公司",
+      "exactMatch": false
+    },
+    {
+      "documentId": "style-j-sample-001",
+      "style": "style-j",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "东莞宏图工程有限公司",
+      "extractedValue": "东莞宏图工程有限公司",
+      "expected": "东莞宏图工程有限公司",
+      "exactMatch": true
+    },
+    {
+      "documentId": "style-j-sample-002",
+      "style": "style-j",
+      "startLabel": "名称",
+      "endLabel": "注册资本",
+      "rawSegment": "杭州万象零售有限公司",
+      "extractedValue": "杭州万象零售有限公司",
+      "expected": "杭州万象零售有限公司",
+      "exactMatch": true
+    }
+  ]
+}

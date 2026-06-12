@@ -1,0 +1,72 @@
+[
+  {
+    "id": "us-b1b2-frankfurt-male",
+    "description": "US visa (MRV-A), issued USA, German national, B-class style optional field",
+    "line1": "V<USASMITH<<JOE<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "CZ6311T472GER9603219M3402122B1B2FRANKFUR<<88",
+    "mrz": "V<USASMITH<<JOE<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\nCZ6311T472GER9603219M3402122B1B2FRANKFUR<<88",
+    "meta": {
+      "issuingCountry": "USA",
+      "surname": "SMITH",
+      "givenName": "JOE",
+      "documentNumber": "CZ6311T47",
+      "nationality": "GER"
+    }
+  },
+  {
+    "id": "jp-temp-visitor-phl",
+    "description": "Japan visa (MRV-A), PHL national",
+    "line1": "V<JPNRIVERO<<ROY<VAN<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "AB12345671PHL9005156M2511144<<<<<<<<<<<<<<08",
+    "mrz": "V<JPNRIVERO<<ROY<VAN<<<<<<<<<<<<<<<<<<<<<<<<\nAB12345671PHL9005156M2511144<<<<<<<<<<<<<<08",
+    "meta": {
+      "issuingCountry": "JPN",
+      "surname": "RIVERO",
+      "givenName": "ROY<VAN",
+      "documentNumber": "AB1234567",
+      "nationality": "PHL"
+    }
+  },
+  {
+    "id": "de-schengen-female",
+    "description": "Germany visa (MRV-A), female holder",
+    "line1": "V<DEUSCHMIDT<<ANNA<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "C01X00T478DEU8807124F2806309<<<<<<<<<<<<<<08",
+    "mrz": "V<DEUSCHMIDT<<ANNA<<<<<<<<<<<<<<<<<<<<<<<<<<\nC01X00T478DEU8807124F2806309<<<<<<<<<<<<<<08",
+    "meta": {
+      "issuingCountry": "DEU",
+      "surname": "SCHMIDT",
+      "givenName": "ANNA",
+      "documentNumber": "C01X00T47",
+      "nationality": "DEU"
+    }
+  },
+  {
+    "id": "usa-michelle-style",
+    "description": "US visa (MRV-A), female, long optional padding",
+    "line1": "V<USADOE<<JANE<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "9102392482USA6401171F18120511234567890<<<<76",
+    "mrz": "V<USADOE<<JANE<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n9102392482USA6401171F18120511234567890<<<<76",
+    "meta": {
+      "issuingCountry": "USA",
+      "surname": "DOE",
+      "givenName": "JANE",
+      "documentNumber": "910239248",
+      "nationality": "USA"
+    }
+  },
+  {
+    "id": "gbr-visitor-ind",
+    "description": "UK visa (MRV-A), Indian national",
+    "line1": "V<GBRPATEL<<RAHUL<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "Z123456789IND9508037M2704151VISITOR<CLASS<84",
+    "mrz": "V<GBRPATEL<<RAHUL<<<<<<<<<<<<<<<<<<<<<<<<<<<\nZ123456789IND9508037M2704151VISITOR<CLASS<84",
+    "meta": {
+      "issuingCountry": "GBR",
+      "surname": "PATEL",
+      "givenName": "RAHUL",
+      "documentNumber": "Z12345678",
+      "nationality": "IND"
+    }
+  }
+]

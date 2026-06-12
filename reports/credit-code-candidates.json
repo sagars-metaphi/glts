@@ -1,0 +1,388 @@
+{
+  "documents": 20,
+  "failedDocuments": [
+    {
+      "documentId": "style-d-sample-002",
+      "style": "style-d",
+      "expected": "914401002118530670",
+      "extracted": null,
+      "rawSegment": "9:1440102118530670",
+      "candidates": [
+        {
+          "candidate": "9:1440102118530670",
+          "normalizedCandidate": "",
+          "checksumPassed": false,
+          "rejectionReason": "no_18_char_candidate_found",
+          "selected": false,
+          "matchesExpected": false
+        }
+      ]
+    }
+  ],
+  "all": [
+    {
+      "documentId": "style-a-sample-001",
+      "style": "style-a",
+      "expected": "91420100484553110J",
+      "extracted": "91420100484553110J",
+      "rawSegment": "91420100484553110J",
+      "candidates": [
+        {
+          "candidate": "91420100484553110J",
+          "normalizedCandidate": "91420100484553110J",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        },
+        {
+          "candidate": "201710081820171008",
+          "normalizedCandidate": "201710081820171008",
+          "checksumPassed": false,
+          "rejectionReason": "checksum failed",
+          "selected": false,
+          "matchesExpected": false
+        }
+      ]
+    },
+    {
+      "documentId": "style-a-sample-002",
+      "style": "style-a",
+      "expected": "914403008103521516",
+      "extracted": "914403008103521516",
+      "rawSegment": "914403008103521516",
+      "candidates": [
+        {
+          "candidate": "914403008103521516",
+          "normalizedCandidate": "914403008103521516",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-b-sample-001",
+      "style": "style-b",
+      "expected": "91440300121060019F",
+      "extracted": "91440300121060019F",
+      "rawSegment": "91440300121060019F",
+      "candidates": [
+        {
+          "candidate": "91440300121060019F",
+          "normalizedCandidate": "91440300121060019F",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-b-sample-002",
+      "style": "style-b",
+      "expected": "91330100899329938M",
+      "extracted": "91330100899329938M",
+      "rawSegment": "91330100899329938M",
+      "candidates": [
+        {
+          "candidate": "91330100899329938M",
+          "normalizedCandidate": "91330100899329938M",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-c-sample-001",
+      "style": "style-c",
+      "expected": "91330100939746574R",
+      "extracted": "91330100939746574R",
+      "rawSegment": "91330100939746574R",
+      "candidates": [
+        {
+          "candidate": "91330100939746574R",
+          "normalizedCandidate": "91330100939746574R",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        },
+        {
+          "candidate": "200506046620050604",
+          "normalizedCandidate": "200506046620050604",
+          "checksumPassed": false,
+          "rejectionReason": "checksum failed",
+          "selected": false,
+          "matchesExpected": false
+        }
+      ]
+    },
+    {
+      "documentId": "style-c-sample-002",
+      "style": "style-c",
+      "expected": "91110000067883303Q",
+      "extracted": "91110000067883303Q",
+      "rawSegment": "91.110000067883303Q",
+      "candidates": [
+        {
+          "candidate": "91110000067883303Q",
+          "normalizedCandidate": "91110000067883303Q",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-d-sample-001",
+      "style": "style-d",
+      "expected": "91110000475478019G",
+      "extracted": "91110000475478019G",
+      "rawSegment": "9111#0000475478019G",
+      "candidates": [
+        {
+          "candidate": "91110000475478019G",
+          "normalizedCandidate": "91110000475478019G",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-d-sample-002",
+      "style": "style-d",
+      "expected": "914401002118530670",
+      "extracted": null,
+      "rawSegment": "9:1440102118530670",
+      "candidates": [
+        {
+          "candidate": "9:1440102118530670",
+          "normalizedCandidate": "",
+          "checksumPassed": false,
+          "rejectionReason": "no_18_char_candidate_found",
+          "selected": false,
+          "matchesExpected": false
+        }
+      ]
+    },
+    {
+      "documentId": "style-e-sample-001",
+      "style": "style-e",
+      "expected": "91420100825128376G",
+      "extracted": "91420100825128376G",
+      "rawSegment": "9142 01008251.28376G",
+      "candidates": [
+        {
+          "candidate": "91420100825128376G",
+          "normalizedCandidate": "91420100825128376G",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-e-sample-002",
+      "style": "style-e",
+      "expected": "91330100946216700W",
+      "extracted": "91330100946216700W",
+      "rawSegment": "91330100946216700W",
+      "candidates": [
+        {
+          "candidate": "91330100946216700W",
+          "normalizedCandidate": "91330100946216700W",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        },
+        {
+          "candidate": "201407086620140708",
+          "normalizedCandidate": "201407086620140708",
+          "checksumPassed": false,
+          "rejectionReason": "checksum failed",
+          "selected": false,
+          "matchesExpected": false
+        }
+      ]
+    },
+    {
+      "documentId": "style-f-sample-001",
+      "style": "style-f",
+      "expected": "914403005332005732",
+      "extracted": "914403005332005732",
+      "rawSegment": "914403005332005732",
+      "candidates": [
+        {
+          "candidate": "914403005332005732",
+          "normalizedCandidate": "914403005332005732",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-f-sample-002",
+      "style": "style-f",
+      "expected": "91110000575785188F",
+      "extracted": "91110000575785188F",
+      "rawSegment": "911100005757851 88F",
+      "candidates": [
+        {
+          "candidate": "91110000575785188F",
+          "normalizedCandidate": "91110000575785188F",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-g-sample-001",
+      "style": "style-g",
+      "expected": "91330100618524466R",
+      "extracted": "91330100618524466R",
+      "rawSegment": "91330100618524466R",
+      "candidates": [
+        {
+          "candidate": "91330100618524466R",
+          "normalizedCandidate": "91330100618524466R",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-g-sample-002",
+      "style": "style-g",
+      "expected": "91330100881405530Q",
+      "extracted": "91330100881405530Q",
+      "rawSegment": "91330100881405530Q 名.称成都创联电子有限公司",
+      "candidates": [
+        {
+          "candidate": "91330100881405530Q",
+          "normalizedCandidate": "91330100881405530Q",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-h-sample-001",
+      "style": "style-h",
+      "expected": "914403005015041616",
+      "extracted": "914403005015041616",
+      "rawSegment": "91440:3005015041616",
+      "candidates": [
+        {
+          "candidate": "914403005015041616",
+          "normalizedCandidate": "914403005015041616",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-h-sample-002",
+      "style": "style-h",
+      "expected": "91440100810336865E",
+      "extracted": "91440100810336865E",
+      "rawSegment": "91440!10081033!686:5E",
+      "candidates": [
+        {
+          "candidate": "91440100810336865E",
+          "normalizedCandidate": "91440100810336865E",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-i-sample-001",
+      "style": "style-i",
+      "expected": "91440100482372414Y",
+      "extracted": "91440100482372414Y",
+      "rawSegment": "91440100482372414Y N|ame",
+      "candidates": [
+        {
+          "candidate": "91440100482372414Y",
+          "normalizedCandidate": "91440100482372414Y",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-i-sample-002",
+      "style": "style-i",
+      "expected": "91110000875651337X",
+      "extracted": "91110000875651337X",
+      "rawSegment": "91110000875651337X Name",
+      "candidates": [
+        {
+          "candidate": "91110000875651337X",
+          "normalizedCandidate": "91110000875651337X",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-j-sample-001",
+      "style": "style-j",
+      "expected": "91310000652481970G",
+      "extracted": "91310000652481970G",
+      "rawSegment": "9131000065248!1970G",
+      "candidates": [
+        {
+          "candidate": "91310000652481970G",
+          "normalizedCandidate": "91310000652481970G",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    },
+    {
+      "documentId": "style-j-sample-002",
+      "style": "style-j",
+      "expected": "91510100444606480N",
+      "extracted": "91510100444606480N",
+      "rawSegment": "91510100444606480N",
+      "candidates": [
+        {
+          "candidate": "91510100444606480N",
+          "normalizedCandidate": "91510100444606480N",
+          "checksumPassed": true,
+          "rejectionReason": "selected_valid",
+          "selected": true,
+          "matchesExpected": true
+        }
+      ]
+    }
+  ]
+}

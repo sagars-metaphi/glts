@@ -1,0 +1,22 @@
+{
+  "documentId": "style-i-sample-002",
+  "style": "style-i",
+  "styleName": "mixed_chinese_english",
+  "corruptionLevel": "medium",
+  "seed": 179776,
+  "fields": {
+    "companyName": "成都恒信贸易有限公司",
+    "creditCode": "91110000875651337X",
+    "legalRepresentative": "张磊",
+    "companyType": "有限责任公司(自然人独资)",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2017-10-18",
+    "businessTerm": "2017年10月18日至长期",
+    "address": "上海市朝阳区建国路100号",
+    "businessScope": "广告设计；市场营销策划；品牌管理",
+    "registrationAuthority": "佛山市顺德区市场监督管理局"
+  },
+  "licenseText": "Business License 营业执照\nUSCC 统一社会信用代码 91110000875651337X\nName 名称成都恒信贸易有限公司Capital 注册资本壹亿元人民币\nType 类型有限责任公司(自然人独资)Date 成立日期2017年10月18日\nLegal Rep 法定代表人张磊Address 住所上海市朝阳区建国路100号\nTerm 营业期限2017年10月18日至长期\nScope 经营范围广告设计；市场营销策划；品牌管理\nAuthority 登记机关佛山市顺德区市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:04:03.139Z"
+}

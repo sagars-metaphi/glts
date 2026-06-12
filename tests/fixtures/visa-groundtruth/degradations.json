@@ -1,0 +1,25 @@
+{
+  "description": "Degradation types applied to synthetic visa PNG fixtures (10 countries × 20 variants = 200 images)",
+  "variants": {
+    "01_clean": { "type": "none", "params": {} },
+    "02_low_dpi": { "type": "low_dpi", "params": { "scale": 0.42, "resample": "nearest" } },
+    "03_motion_blur": { "type": "motion_blur", "params": { "sigma": 2.5 } },
+    "04_gaussian_blur": { "type": "gaussian_blur", "params": { "sigma": 3.5 } },
+    "05_skewed": { "type": "skewed", "params": { "rotateDeg": 4 } },
+    "06_perspective": { "type": "perspective", "params": { "affine": "shear ~0.12" } },
+    "07_partial_crop": { "type": "partial_crop", "params": { "cropPercent": "8/5/84/88" } },
+    "08_dark": { "type": "dark", "params": { "brightness": 0.55 } },
+    "09_overexposed": { "type": "overexposed", "params": { "brightness": 1.45 } },
+    "10_glare": { "type": "glare", "params": { "overlay": "radial white 85%" } },
+    "11_stamp": { "type": "stamp", "params": { "position": "over name block" } },
+    "12_ocr_a_font": { "type": "font", "params": { "family": "Courier New monospace" } },
+    "13_arial_font": { "type": "font", "params": { "family": "Arial sans-serif" } },
+    "14_mixed_fonts": { "type": "font", "params": { "labels": "Arial", "values": "Courier" } },
+    "15_long_names": { "type": "content", "params": { "givenNamesLength": "40+" } },
+    "16_multiple_surnames": { "type": "content", "params": { "surname": "compound" } },
+    "17_special_characters": { "type": "content", "params": { "chars": "é, í" } },
+    "18_invalid_mrz": { "type": "content", "params": { "mrzCheckDigit": "corrupted" } },
+    "19_missing_mrz": { "type": "content", "params": { "mrz": "absent" } },
+    "20_expired": { "type": "content", "params": { "expiryDate": "2020-01-01" } }
+  }
+}

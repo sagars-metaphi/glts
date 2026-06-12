@@ -1,0 +1,22 @@
+{
+  "documentId": "style-e-sample-002",
+  "style": "style-e",
+  "styleName": "rotated_180",
+  "corruptionLevel": "medium",
+  "seed": 99992,
+  "fields": {
+    "companyName": "上海瑞丰生物有限公司",
+    "creditCode": "91330100946216700W",
+    "legalRepresentative": "李娜",
+    "companyType": "有限责任公司",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2014-07-08",
+    "businessTerm": "2014年07月08日至长期",
+    "address": "佛山市浦东新区张江路66号",
+    "businessScope": "医疗器械销售；健康咨询服务",
+    "registrationAuthority": "成都市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91330100946216700W\n名称上海瑞丰生物有限公司注册资本壹亿元人民币\n类型有限责任公司成立日期2014年07月08日\n法定代表人李娜住所佛山市浦东新区张江路66号\n营业期限2014年07月08日至长期\n经营范围医疗器械销售；健康咨询服务\n登记机关成都市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:54.091Z"
+}

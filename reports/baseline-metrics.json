@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-11T10:08:59.432Z",
+  "documentCount": 20,
+  "mode": "text",
+  "overallExactMatchRate": 0.755,
+  "perField": {
+    "companyName": 0.55,
+    "creditCode": 0.6,
+    "legalRepresentative": 0.85,
+    "companyType": 0.85,
+    "registeredCapital": 0.8,
+    "establishmentDate": 0.8,
+    "businessTerm": 0.8,
+    "address": 0.75,
+    "businessScope": 0.65,
+    "registrationAuthority": 0.9
+  }
+}

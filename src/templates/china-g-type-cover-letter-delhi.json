@@ -1,0 +1,220 @@
+{
+  "id": "china-g-type-cover-letter-delhi",
+  "name": "China G Type Cover Letter - Delhi",
+  "windowSize": 220,
+  "body": "ON COMPANY LETTERHEAD\n\nDate: {{date}}\n\nTo: {{to}}\n\nSub: {{subjectLine}}\n\nDear Sir / Madam,\n\nSURNAME / NAME: {{surnameName}}\nDESIGNATION: {{designation}}\nNATIONALITY: {{nationality}}\nBIRTHDATE / PLACE: {{birthPlace}}\nPASSPORT NO: {{passportNumber}}\nPASSPORT ISS / EXP: {{passportIssueDate}} / {{passportExpiryDate}}\n\nPlease be advised that the above-mentioned candidate is scheduled to join the vessel at {{joinPortChina}} on {{joiningDate}}, the {{vesselName}}, {{vesselFlag}}, IMO No. {{imoNumber}}, operated by our Principal, {{principalCompany}}.\n\nWe request you to kindly grant him Chinese \"G\" Type visa with {{visaValidityMonths}} validity, {{entriesRequested}} with longest stay of {{stayDays}} enable him to join as per ship schedule.\n\nAgent details in China:\nName: {{chinaAgentName}}\nAddress: {{chinaAgentAddress}}\nContact no: {{chinaAgentContact}}\nAuthorise person name – Designation: {{authorizedPersonName}}\n\nIf the visa is being granted and he fails to join the vessel for any reason within the period for which he is admitted, our Principals mentioned above and us will be responsible for the maintenance and repatriation to India.\n\nThanking you.\n\nYours sincerely,\n{{indianCompanyName}}\nMr. {{signatoryName}}\nDesignation: {{signatoryDesignation}}\nContact no: {{signatoryContact}}\nCompany stamp: {{companyStamp}}",
+  "sections": {
+    "to": {
+      "start": "To\\s*[,，]?",
+      "end": "Sub\\s*[:：]"
+    },
+    "body": {
+      "start": "Please\\s+be\\s+advised",
+      "end": "Agent\\s+details\\s+in\\s+China"
+    },
+    "candidateDetails": {
+      "start": "Dear\\s+Sir",
+      "end": "Please\\s+be\\s+advised"
+    },
+    "agentDetails": {
+      "start": "Agent\\s+details\\s+in\\s+China",
+      "end": "Authori[sz]e\\s+person\\s+name"
+    },
+    "from": {
+      "start": "Yours\\s+sincerely",
+      "end": null
+    }
+  },
+  "required": [
+    "date",
+    "surnameName",
+    "designation",
+    "nationality",
+    "passportNumber",
+    "passportIssueDate",
+    "passportExpiryDate",
+    "joinPortChina",
+    "vesselName",
+    "imoNumber",
+    "visaType",
+    "entriesRequested",
+    "stayDays",
+    "chinaAgentName",
+    "authorizedPersonName"
+  ],
+  "fields": {
+    "date": {
+      "label": "Date :",
+      "aliases": ["Date:", "DATED"],
+      "valuePattern": "\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2}",
+      "required": true
+    },
+    "to": {
+      "label": "To",
+      "aliases": ["The visa officer", "Embassy of"],
+      "section": "to"
+    },
+    "subjectLine": {
+      "label": "Sub",
+      "aliases": ["Sub:", "Visa Application For"],
+      "valuePattern": "Visa Application[^\\n]+"
+    },
+    "surnameName": {
+      "label": "SURNAME / NAME",
+      "aliases": ["Surname / Name", "NAME"],
+      "section": "candidateDetails",
+      "required": true
+    },
+    "designation": {
+      "label": "DESIGNATION",
+      "aliases": ["Designation"],
+      "section": "candidateDetails",
+      "required": true
+    },
+    "nationality": {
+      "label": "NATIONALITY",
+      "aliases": ["Nationality"],
+      "section": "candidateDetails",
+      "required": true
+    },
+    "birthDate": {
+      "label": "BIRTHDATE / PLACE",
+      "aliases": ["Birthdate / Place", "Date of Birth"],
+      "valuePattern": "\\d{1,2}\\s+[A-Z]+\\s+\\d{4}|\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2}",
+      "section": "candidateDetails"
+    },
+    "birthPlace": {
+      "label": "BIRTHDATE / PLACE",
+      "aliases": ["Birthdate / Place", "Place of Birth"],
+      "section": "candidateDetails"
+    },
+    "passportNumber": {
+      "label": "PASSPORT NO",
+      "aliases": ["Passport No", "Passport Number"],
+      "valuePattern": "[A-Z0-9]{6,12}",
+      "section": "candidateDetails",
+      "required": true
+    },
+    "passportIssueDate": {
+      "label": "PASSPORT ISS / EXP",
+      "aliases": ["Passport Iss / Exp", "ISS"],
+      "valuePattern": "\\d{1,2}\\s+[A-Z]+\\s+\\d{4}|\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2}",
+      "section": "candidateDetails",
+      "required": true
+    },
+    "passportExpiryDate": {
+      "label": "PASSPORT ISS / EXP",
+      "aliases": ["Passport Iss / Exp", "EXP"],
+      "valuePattern": "\\d{1,2}\\s+[A-Z]+\\s+\\d{4}|\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2}",
+      "section": "candidateDetails",
+      "required": true
+    },
+    "joinPortChina": {
+      "label": "join the vessel at",
+      "aliases": ["Join vessel at", "Port, China", "scheduled to join"],
+      "section": "body",
+      "required": true
+    },
+    "joiningDate": {
+      "label": "on",
+      "aliases": ["join on", "scheduled date"],
+      "valuePattern": "\\d{1,2}\\s+[A-Z]+\\s+\\d{4}|\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2}",
+      "section": "body"
+    },
+    "vesselName": {
+      "label": "M.V.",
+      "aliases": ["the M.V.", "M.V. Ocean"],
+      "section": "body",
+      "required": true
+    },
+    "vesselFlag": {
+      "label": "Flag",
+      "aliases": ["Panama Flag", "Vessel Flag"],
+      "section": "body"
+    },
+    "imoNumber": {
+      "label": "IMO No",
+      "aliases": ["IMO Number", "IMO"],
+      "valuePattern": "\\d{7}",
+      "section": "body",
+      "required": true
+    },
+    "principalCompany": {
+      "label": "operated by our Principal",
+      "aliases": ["our Principal", "Principals mentioned above"],
+      "section": "body"
+    },
+    "visaType": {
+      "label": "G\" Type visa",
+      "aliases": ["G Type Visa", "Chinese"],
+      "section": "body",
+      "required": true
+    },
+    "visaValidityMonths": {
+      "label": "Months validity",
+      "aliases": ["3 Months validity", "validity 3 month"],
+      "valuePattern": "\\d+\\s*(Months?|month)",
+      "section": "body"
+    },
+    "entriesRequested": {
+      "label": "Single Entry",
+      "aliases": ["Single entry", "single entry visa"],
+      "section": "body",
+      "required": true
+    },
+    "stayDays": {
+      "label": "stay",
+      "aliases": ["longest stay of", "stay 07 days"],
+      "valuePattern": "\\d{1,2}\\s*days?",
+      "section": "body",
+      "required": true
+    },
+    "chinaAgentName": {
+      "label": "Name",
+      "aliases": ["Agent details in China: Name", "Name:"],
+      "section": "agentDetails",
+      "required": true
+    },
+    "chinaAgentAddress": {
+      "label": "Address",
+      "aliases": ["Address:"],
+      "section": "agentDetails"
+    },
+    "chinaAgentContact": {
+      "label": "Contact no",
+      "aliases": ["Contact no:", "Contact Number"],
+      "section": "agentDetails"
+    },
+    "authorizedPersonName": {
+      "label": "Authorise person name",
+      "aliases": ["Authorize person name", "Authorise person name – Designation"],
+      "section": "agentDetails",
+      "required": true
+    },
+    "indianCompanyName": {
+      "label": "Indian company name",
+      "aliases": ["Company name", "Yours sincerely,Indian company name"],
+      "section": "from"
+    },
+    "signatoryName": {
+      "label": "Mr.",
+      "aliases": ["Signatory", "Mr. Zhang"],
+      "section": "from"
+    },
+    "signatoryDesignation": {
+      "label": "Designation",
+      "aliases": ["Regional Business Director", "Signatory Designation"],
+      "section": "from"
+    },
+    "signatoryContact": {
+      "label": "Contact no",
+      "aliases": ["Contact no:", "Signatory Contact"],
+      "section": "from"
+    },
+    "companyStamp": {
+      "label": "Company stamp",
+      "aliases": ["Company stamp:"],
+      "section": "from"
+    }
+  }
+}

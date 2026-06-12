@@ -1,0 +1,22 @@
+{
+  "documentId": "style-g-sample-002",
+  "style": "style-g",
+  "styleName": "blurred",
+  "corruptionLevel": "high",
+  "seed": 139884,
+  "fields": {
+    "companyName": "成都创联电子有限公司",
+    "creditCode": "91330100881405530Q",
+    "legalRepresentative": "赵建华",
+    "companyType": "有限责任公司",
+    "registeredCapital": "贰仟壹佰万元人民币",
+    "establishmentDate": "2011-07-05",
+    "businessTerm": "2011年07月05日至长期",
+    "address": "佛山市朝阳区建国路100号",
+    "businessScope": "教育咨询服务；会议及展览服务",
+    "registrationAuthority": "上海市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91330100881405530Q\n名称成都创联电子有限公司注册资本贰仟壹佰万元人民币\n类型有限责任公司成立日期2011年07月05日\n法定代表人赵建华住所佛山市朝阳区建国路100号\n营业期限2011年07月05日至长期\n经营范围教育咨询服务；会议及展览服务\n登记机关上海市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:56.339Z"
+}

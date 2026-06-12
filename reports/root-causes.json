@@ -1,0 +1,137 @@
+{
+  "rootCauses": [
+    {
+      "rank": 1,
+      "id": "label_corruption",
+      "label": "Label text corrupted",
+      "description": "Known labels damaged (统一社会佰用代码, 注册责本, 经营·范围, 营业期很, 经范围)",
+      "impact": 13,
+      "affectedFields": [
+        "businessTerm",
+        "businessScope",
+        "address",
+        "creditCode",
+        "registeredCapital"
+      ],
+      "exampleDocumentIds": [
+        "style-b-sample-001",
+        "style-b-sample-002",
+        "style-d-sample-001",
+        "style-d-sample-002",
+        "style-e-sample-001"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "high_confidence_wrong",
+      "label": "High-confidence wrong extraction",
+      "description": "Field wrong but confidence >= 0.85",
+      "impact": 11,
+      "affectedFields": [
+        "businessScope",
+        "address",
+        "businessTerm",
+        "companyName",
+        "legalRepresentative",
+        "registeredCapital"
+      ],
+      "exampleDocumentIds": [
+        "style-b-sample-002",
+        "style-d-sample-001",
+        "style-d-sample-002",
+        "style-e-sample-001",
+        "style-e-sample-002"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "limited_company_ocr",
+      "label": "有限公司 → 有很公司 OCR confusion",
+      "description": "限/有/很 character confusion in company suffix",
+      "impact": 7,
+      "affectedFields": [
+        "companyName",
+        "companyType"
+      ],
+      "exampleDocumentIds": [
+        "style-b-sample-002",
+        "style-c-sample-002",
+        "style-d-sample-002",
+        "style-e-sample-001",
+        "style-e-sample-002"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "business_scope_label_break",
+      "label": "businessScope OCR degradation",
+      "description": "经营范围 label broken or segment empty",
+      "impact": 5,
+      "affectedFields": [
+        "businessScope"
+      ],
+      "exampleDocumentIds": [
+        "style-b-sample-002",
+        "style-e-sample-001",
+        "style-h-sample-001",
+        "style-i-sample-001",
+        "style-i-sample-002"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "address_ocr_noise",
+      "label": "Address OCR noise characters",
+      "description": "Underscores or punctuation inserted in address (_168号)",
+      "impact": 2,
+      "affectedFields": [
+        "address"
+      ],
+      "exampleDocumentIds": [
+        "style-d-sample-001",
+        "style-d-sample-002"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "date_ocr_noise",
+      "label": "Date OCR noise",
+      "description": "Punctuation/line-breaks inside dates (2!008, 20\\n35)",
+      "impact": 2,
+      "affectedFields": [
+        "businessTerm",
+        "establishmentDate"
+      ],
+      "exampleDocumentIds": [
+        "style-b-sample-001",
+        "style-j-sample-002"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "punctuation_in_credit_code",
+      "label": "Punctuation injected into credit code",
+      "description": "OCR inserts · # ! : _ into 18-digit USCC breaking boundary regex",
+      "impact": 1,
+      "affectedFields": [
+        "creditCode"
+      ],
+      "exampleDocumentIds": [
+        "style-d-sample-002"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "credit_checksum_reject",
+      "label": "Credit code checksum rejection",
+      "description": "Valid expected code corrupted; no checksum-valid candidate selected",
+      "impact": 1,
+      "affectedFields": [
+        "creditCode"
+      ],
+      "exampleDocumentIds": [
+        "style-d-sample-002"
+      ]
+    }
+  ]
+}

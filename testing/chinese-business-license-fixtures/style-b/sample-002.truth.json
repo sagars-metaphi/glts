@@ -1,0 +1,22 @@
+{
+  "documentId": "style-b-sample-002",
+  "style": "style-b",
+  "styleName": "low_dpi",
+  "corruptionLevel": "low",
+  "seed": 40154,
+  "fields": {
+    "companyName": "西安金鼎投资股份有限公司",
+    "creditCode": "91330100899329938M",
+    "legalRepresentative": "徐明",
+    "companyType": "有限责任公司",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2001-12-14",
+    "businessTerm": "2001年12月14日至2035年12月31日",
+    "address": "佛山市江汉区建设大道18号",
+    "businessScope": "软件开发；技术咨询；技术服务",
+    "registrationAuthority": "上海市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91330100899329938M\n名称西安金鼎投资股份有限公司注册资本壹亿元人民币\n类型有限责任公司成立日期2001年12月14日\n法定代表人徐明住所佛山市江汉区建设大道18号\n营业期限2001年12月14日至2035年12月31日\n经营范围软件开发；技术咨询；技术服务\n登记机关上海市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:50.377Z"
+}

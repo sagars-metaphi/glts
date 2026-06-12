@@ -1,0 +1,22 @@
+{
+  "documentId": "style-i-sample-001",
+  "style": "style-i",
+  "styleName": "mixed_chinese_english",
+  "corruptionLevel": "medium",
+  "seed": 169672,
+  "fields": {
+    "companyName": "西安华腾科技有限公司",
+    "creditCode": "91440100482372414Y",
+    "legalRepresentative": "徐杰",
+    "companyType": "股份有限公司",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2010-10-13",
+    "businessTerm": "2010年10月13日至2035年12月31日",
+    "address": "重庆市南山区科技园南路18号",
+    "businessScope": "食品销售；农产品零售；餐饮服务",
+    "registrationAuthority": "上海市市场监督管理局"
+  },
+  "licenseText": "Business License 营业执照\nUSCC 统一社会信用代码 91440100482372414Y\nName 名称西安华腾科技有限公司Capital 注册资本壹亿元人民币\nType 类型股份有限公司Date 成立日期2010年10月13日\nLegal Rep 法定代表人徐杰Address 住所重庆市南山区科技园南路18号\nTerm 营业期限2010年10月13日至2035年12月31日\nScope 经营范围食品销售；农产品零售；餐饮服务\nAuthority 登记机关上海市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:04:02.673Z"
+}

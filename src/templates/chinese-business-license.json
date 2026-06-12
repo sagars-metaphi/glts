@@ -1,0 +1,59 @@
+{
+  "id": "chinese-business-license",
+  "name": "Chinese Business License (营业执照)",
+  "windowSize": 200,
+  "required": [
+    "companyName",
+    "creditCode",
+    "legalRepresentative"
+  ],
+  "fields": {
+    "companyName": {
+      "label": "名称",
+      "aliases": ["名 称", "企业名称", "公司名称"],
+      "required": true
+    },
+    "creditCode": {
+      "label": "统一社会信用代码",
+      "aliases": ["社会信用代码", "信用代码", "统一社会信用代 码"],
+      "valuePattern": "[0-9A-Z]{18}",
+      "required": true
+    },
+    "legalRepresentative": {
+      "label": "法定代表人",
+      "aliases": ["法定代表", "法人代表", "负责人"],
+      "required": true
+    },
+    "companyType": {
+      "label": "类型",
+      "aliases": ["类 型", "企业类型", "公司类型"]
+    },
+    "registeredCapital": {
+      "label": "注册资本",
+      "aliases": ["注册资金", "资本"],
+      "valuePattern": "[\\d,.]+\\s*(万|亿)?\\s*元?"
+    },
+    "establishmentDate": {
+      "label": "成立日期",
+      "aliases": ["成立时间", "设立日期"],
+      "valuePattern": "\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日|\\d{4}[\\/\\-]\\d{1,2}[\\/\\-]\\d{1,2}"
+    },
+    "businessTerm": {
+      "label": "营业期限",
+      "aliases": ["经营期限", "营业期"],
+      "valuePattern": "\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日[至到-]+(?:\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日|长期)|长期"
+    },
+    "address": {
+      "label": "住所",
+      "aliases": ["住 所", "地址", "经营场所"]
+    },
+    "businessScope": {
+      "label": "经营范围",
+      "aliases": ["经营 范围", "业务范围"]
+    },
+    "registrationAuthority": {
+      "label": "登记机关",
+      "aliases": ["登记 机关", "发证机关"]
+    }
+  }
+}

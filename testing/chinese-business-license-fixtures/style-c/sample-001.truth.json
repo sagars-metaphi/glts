@@ -1,0 +1,22 @@
+{
+  "documentId": "style-c-sample-001",
+  "style": "style-c",
+  "styleName": "watermark",
+  "corruptionLevel": "low",
+  "seed": 49996,
+  "fields": {
+    "companyName": "苏州瑞丰生物有限公司",
+    "creditCode": "91330100939746574R",
+    "legalRepresentative": "胡涛",
+    "companyType": "股份有限公司",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2005-06-04",
+    "businessTerm": "2005年06月04日至长期",
+    "address": "北京市西湖区文三路66号",
+    "businessScope": "食品销售；农产品零售；餐饮服务",
+    "registrationAuthority": "成都市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91330100939746574R\n名称苏州瑞丰生物有限公司注册资本壹亿元人民币\n类型股份有限公司成立日期2005年06月04日\n法定代表人胡涛住所北京市西湖区文三路66号\n营业期限2005年06月04日至长期\n经营范围食品销售；农产品零售；餐饮服务\n登记机关成都市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:51.022Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "employment-form",
+  "windowSize": 150,
+  "required": [
+    "fullName",
+    "email",
+    "dateOfBirth"
+  ],
+  "fields": {
+    "fullName": {
+      "label": "Full Name",
+      "aliases": [
+        "Name",
+        "Applicant Name"
+      ],
+      "required": true
+    },
+    "email": {
+      "label": "Email",
+      "required": true
+    }
+  },
+  "name": "Employment Form"
+}

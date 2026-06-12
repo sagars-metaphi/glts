@@ -1,0 +1,22 @@
+{
+  "documentId": "style-h-sample-001",
+  "style": "style-h",
+  "styleName": "noise",
+  "corruptionLevel": "high",
+  "seed": 149726,
+  "fields": {
+    "companyName": "武汉博雅文化有限公司",
+    "creditCode": "914403005015041616",
+    "legalRepresentative": "何勇",
+    "companyType": "股份有限公司",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2001-04-17",
+    "businessTerm": "2001年04月17日至长期",
+    "address": "成都市海淀区中关村大街200号",
+    "businessScope": "广告设计；市场营销策划；品牌管理",
+    "registrationAuthority": "上海市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 914403005015041616\n名称武汉博雅文化有限公司注册资本壹亿元人民币\n类型股份有限公司成立日期2001年04月17日\n法定代表人何勇住所成都市海淀区中关村大街200号\n营业期限2001年04月17日至长期\n经营范围广告设计；市场营销策划；品牌管理\n登记机关上海市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:56.937Z"
+}

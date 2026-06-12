@@ -1,0 +1,4181 @@
+{
+  "generatedAt": "2026-06-09T06:41:46.676Z",
+  "durationMs": 7638827,
+  "imageLimit": null,
+  "summary": {
+    "totalSamples": 200,
+    "fieldAccuracy": 0.7531818181818175,
+    "ocrCharAccuracy": 0.8985714285714289,
+    "mrzAccuracy": 0.775,
+    "falsePositiveRate": 0,
+    "falseNegativeRate": 0.05,
+    "durationMs": 7638825,
+    "avgElapsedMs": 38174.355,
+    "byDegradation": {
+      "none": {
+        "count": 10,
+        "fieldAccuracy": 0.8545454545454547
+      },
+      "low_dpi": {
+        "count": 10,
+        "fieldAccuracy": 0.8545454545454547
+      },
+      "motion_blur": {
+        "count": 10,
+        "fieldAccuracy": 0.7469696969696971
+      },
+      "gaussian_blur": {
+        "count": 10,
+        "fieldAccuracy": 0
+      },
+      "skewed": {
+        "count": 10,
+        "fieldAccuracy": 0.6484848484848486
+      },
+      "perspective": {
+        "count": 10,
+        "fieldAccuracy": 1
+      },
+      "partial_crop": {
+        "count": 10,
+        "fieldAccuracy": 0.6886363636363636
+      },
+      "dark": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      },
+      "overexposed": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      },
+      "glare": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      },
+      "stamp": {
+        "count": 10,
+        "fieldAccuracy": 0.7916666666666667
+      },
+      "font_ocr_a": {
+        "count": 10,
+        "fieldAccuracy": 0.7651515151515154
+      },
+      "font_arial": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      },
+      "font_mixed": {
+        "count": 10,
+        "fieldAccuracy": 0.9469696969696969
+      },
+      "content_long_names": {
+        "count": 10,
+        "fieldAccuracy": 0.7833333333333334
+      },
+      "content_multi_surname": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      },
+      "content_special_chars": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      },
+      "content_invalid_mrz": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      },
+      "content_missing_mrz": {
+        "count": 10,
+        "fieldAccuracy": 0.28030303030303033
+      },
+      "content_expired": {
+        "count": 10,
+        "fieldAccuracy": 0.8378787878787879
+      }
+    },
+    "byCountry": {
+      "usa": {
+        "count": 20,
+        "fieldAccuracy": 0.7500000000000002
+      },
+      "schengen": {
+        "count": 20,
+        "fieldAccuracy": 0.6999999999999998
+      },
+      "uk": {
+        "count": 20,
+        "fieldAccuracy": 0.6499999999999998
+      },
+      "canada": {
+        "count": 20,
+        "fieldAccuracy": 0.8954545454545453
+      },
+      "australia": {
+        "count": 20,
+        "fieldAccuracy": 0.8636363636363635
+      },
+      "uae": {
+        "count": 20,
+        "fieldAccuracy": 0.85
+      },
+      "india": {
+        "count": 20,
+        "fieldAccuracy": 0.6909090909090907
+      },
+      "singapore": {
+        "count": 20,
+        "fieldAccuracy": 0.7545454545454546
+      },
+      "japan": {
+        "count": 20,
+        "fieldAccuracy": 0.7090909090909092
+      },
+      "china": {
+        "count": 20,
+        "fieldAccuracy": 0.668181818181818
+      }
+    },
+    "byOcrPass": {
+      "pass1": 194,
+      "pass2": 3,
+      "pass4": 3
+    },
+    "blurRecovery": {
+      "nonPass1Winners": 6,
+      "totalRecoveredFields": 0,
+      "avgOcrConfidence": 63.36999999999999
+    }
+  },
+  "samples": [
+    {
+      "id": "usa_01_clean",
+      "country": "usa",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 12,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.66666666666667,
+      "passScores": {
+        "pass1": 268.16666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 28859
+    },
+    {
+      "id": "usa_02_low_dpi",
+      "country": "usa",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 12,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.66666666666667,
+      "passScores": {
+        "pass1": 268.16666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 18502
+    },
+    {
+      "id": "usa_03_motion_blur",
+      "country": "usa",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 36.666666666666664,
+      "passScores": {
+        "pass1": 201.11666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 22464
+    },
+    {
+      "id": "usa_04_gaussian_blur",
+      "country": "usa",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 0,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 49.666666666666664,
+      "passScores": {
+        "pass1": 52.56666666666666,
+        "pass2": 38.916666666666664,
+        "pass3": 29.770833333333332,
+        "pass4": 34.666666666666664
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 781006
+    },
+    {
+      "id": "usa_05_skewed",
+      "country": "usa",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 8,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 254.9
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9249
+    },
+    {
+      "id": "usa_06_perspective",
+      "country": "usa",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 12,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 74.33333333333333,
+      "passScores": {
+        "pass1": 270.58333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8096
+    },
+    {
+      "id": "usa_07_partial_crop",
+      "country": "usa",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 3,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.666666666666664,
+      "passScores": {
+        "pass1": 201.21666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12072
+    },
+    {
+      "id": "usa_08_dark",
+      "country": "usa",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 267.16666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12470
+    },
+    {
+      "id": "usa_09_overexposed",
+      "country": "usa",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61,
+      "passScores": {
+        "pass1": 249.4
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11950
+    },
+    {
+      "id": "usa_10_glare",
+      "country": "usa",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 69,
+      "passScores": {
+        "pass1": 269.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14806
+    },
+    {
+      "id": "usa_11_stamp",
+      "country": "usa",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 68.33333333333333,
+      "passScores": {
+        "pass1": 261.08333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 129548
+    },
+    {
+      "id": "usa_12_ocr_a_font",
+      "country": "usa",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 72.66666666666667,
+      "passScores": {
+        "pass1": 270.16666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 6440
+    },
+    {
+      "id": "usa_13_arial_font",
+      "country": "usa",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 74,
+      "passScores": {
+        "pass1": 270.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8814
+    },
+    {
+      "id": "usa_14_mixed_fonts",
+      "country": "usa",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 70.33333333333333,
+      "passScores": {
+        "pass1": 269.58333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 17709
+    },
+    {
+      "id": "usa_15_long_names",
+      "country": "usa",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63.333333333333336,
+      "passScores": {
+        "pass1": 267.83333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 31388
+    },
+    {
+      "id": "usa_16_multiple_surnames",
+      "country": "usa",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63.666666666666664,
+      "passScores": {
+        "pass1": 267.91666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 58459
+    },
+    {
+      "id": "usa_17_special_characters",
+      "country": "usa",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 71,
+      "passScores": {
+        "pass1": 269.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 38977
+    },
+    {
+      "id": "usa_18_invalid_mrz",
+      "country": "usa",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 68.33333333333333,
+      "passScores": {
+        "pass1": 269.08333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 55038
+    },
+    {
+      "id": "usa_19_missing_mrz",
+      "country": "usa",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 2,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 0.7142857142857143,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58,
+      "passScores": {
+        "pass1": 231.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 519318
+    },
+    {
+      "id": "usa_20_expired",
+      "country": "usa",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 12,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 68.66666666666667,
+      "passScores": {
+        "pass1": 269.16666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 32932
+    },
+    {
+      "id": "schengen_01_clean",
+      "country": "schengen",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 249.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 30407
+    },
+    {
+      "id": "schengen_02_low_dpi",
+      "country": "schengen",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 249.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 31600
+    },
+    {
+      "id": "schengen_03_motion_blur",
+      "country": "schengen",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 7,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 40,
+      "passScores": {
+        "pass1": 185.2
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 21638
+    },
+    {
+      "id": "schengen_04_gaussian_blur",
+      "country": "schengen",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass2",
+      "ocrConfidence": 61.666666666666664,
+      "passScores": {
+        "pass1": 28.333333333333332,
+        "pass2": 38.41666666666667,
+        "pass3": 26.322916666666664,
+        "pass4": 8.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 516317
+    },
+    {
+      "id": "schengen_05_skewed",
+      "country": "schengen",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.5,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 92.66666666666667,
+      "passScores": {
+        "pass1": 222.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 46705
+    },
+    {
+      "id": "schengen_06_perspective",
+      "country": "schengen",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 73,
+      "passScores": {
+        "pass1": 252.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 24698
+    },
+    {
+      "id": "schengen_07_partial_crop",
+      "country": "schengen",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 57.666666666666664,
+      "passScores": {
+        "pass1": 204.76666666666665
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 28149
+    },
+    {
+      "id": "schengen_08_dark",
+      "country": "schengen",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63.666666666666664,
+      "passScores": {
+        "pass1": 249.91666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 27195
+    },
+    {
+      "id": "schengen_09_overexposed",
+      "country": "schengen",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 73.33333333333333,
+      "passScores": {
+        "pass1": 248.48333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 36634
+    },
+    {
+      "id": "schengen_10_glare",
+      "country": "schengen",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 249.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 33123
+    },
+    {
+      "id": "schengen_11_stamp",
+      "country": "schengen",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 249.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 27241
+    },
+    {
+      "id": "schengen_12_ocr_a_font",
+      "country": "schengen",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65,
+      "passScores": {
+        "pass1": 250.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 41894
+    },
+    {
+      "id": "schengen_13_arial_font",
+      "country": "schengen",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 70.66666666666667,
+      "passScores": {
+        "pass1": 251.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 59041
+    },
+    {
+      "id": "schengen_14_mixed_fonts",
+      "country": "schengen",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 249.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 44002
+    },
+    {
+      "id": "schengen_15_long_names",
+      "country": "schengen",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61,
+      "passScores": {
+        "pass1": 249.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 46378
+    },
+    {
+      "id": "schengen_16_multiple_surnames",
+      "country": "schengen",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61.666666666666664,
+      "passScores": {
+        "pass1": 249.41666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 79633
+    },
+    {
+      "id": "schengen_17_special_characters",
+      "country": "schengen",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 66,
+      "passScores": {
+        "pass1": 250.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 60379
+    },
+    {
+      "id": "schengen_18_invalid_mrz",
+      "country": "schengen",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63,
+      "passScores": {
+        "pass1": 249.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 50702
+    },
+    {
+      "id": "schengen_19_missing_mrz",
+      "country": "schengen",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 213.58333333333331
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 392371
+    },
+    {
+      "id": "schengen_20_expired",
+      "country": "schengen",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61,
+      "passScores": {
+        "pass1": 249.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 18009
+    },
+    {
+      "id": "uk_01_clean",
+      "country": "uk",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 24544
+    },
+    {
+      "id": "uk_02_low_dpi",
+      "country": "uk",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 29330
+    },
+    {
+      "id": "uk_03_motion_blur",
+      "country": "uk",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 42,
+      "passScores": {
+        "pass1": 189.9
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 27334
+    },
+    {
+      "id": "uk_04_gaussian_blur",
+      "country": "uk",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass4",
+      "ocrConfidence": 50,
+      "passScores": {
+        "pass1": 28.25,
+        "pass2": 15.833333333333332,
+        "pass3": 25.84375,
+        "pass4": 35.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 197690
+    },
+    {
+      "id": "uk_05_skewed",
+      "country": "uk",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.5,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 91,
+      "passScores": {
+        "pass1": 221.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 58479
+    },
+    {
+      "id": "uk_06_perspective",
+      "country": "uk",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 74,
+      "passScores": {
+        "pass1": 252.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 30373
+    },
+    {
+      "id": "uk_07_partial_crop",
+      "country": "uk",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 1,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 55,
+      "passScores": {
+        "pass1": 165.15
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 26393
+    },
+    {
+      "id": "uk_08_dark",
+      "country": "uk",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.666666666666664,
+      "passScores": {
+        "pass1": 248.91666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 23447
+    },
+    {
+      "id": "uk_09_overexposed",
+      "country": "uk",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 249.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 27013
+    },
+    {
+      "id": "uk_10_glare",
+      "country": "uk",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 15527
+    },
+    {
+      "id": "uk_11_stamp",
+      "country": "uk",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 56.333333333333336,
+      "passScores": {
+        "pass1": 240.08333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 19260
+    },
+    {
+      "id": "uk_12_ocr_a_font",
+      "country": "uk",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.333333333333336,
+      "passScores": {
+        "pass1": 249.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12874
+    },
+    {
+      "id": "uk_13_arial_font",
+      "country": "uk",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 67,
+      "passScores": {
+        "pass1": 250.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13684
+    },
+    {
+      "id": "uk_14_mixed_fonts",
+      "country": "uk",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58,
+      "passScores": {
+        "pass1": 248.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 15889
+    },
+    {
+      "id": "uk_15_long_names",
+      "country": "uk",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.666666666666664,
+      "passScores": {
+        "pass1": 244.46666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 16585
+    },
+    {
+      "id": "uk_16_multiple_surnames",
+      "country": "uk",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.666666666666664,
+      "passScores": {
+        "pass1": 248.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 19370
+    },
+    {
+      "id": "uk_17_special_characters",
+      "country": "uk",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 245.3
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 20776
+    },
+    {
+      "id": "uk_18_invalid_mrz",
+      "country": "uk",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58,
+      "passScores": {
+        "pass1": 248.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14189
+    },
+    {
+      "id": "uk_19_missing_mrz",
+      "country": "uk",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.5,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.666666666666664,
+      "passScores": {
+        "pass1": 213.66666666666669
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 146750
+    },
+    {
+      "id": "uk_20_expired",
+      "country": "uk",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58,
+      "passScores": {
+        "pass1": 248.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11107
+    },
+    {
+      "id": "canada_01_clean",
+      "country": "canada",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.333333333333336,
+      "passScores": {
+        "pass1": 249.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12105
+    },
+    {
+      "id": "canada_02_low_dpi",
+      "country": "canada",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.333333333333336,
+      "passScores": {
+        "pass1": 249.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14229
+    },
+    {
+      "id": "canada_03_motion_blur",
+      "country": "canada",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 51,
+      "passScores": {
+        "pass1": 205.1
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8813
+    },
+    {
+      "id": "canada_04_gaussian_blur",
+      "country": "canada",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.16666666666666666,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass4",
+      "ocrConfidence": 78.66666666666667,
+      "passScores": {
+        "pass1": 29.333333333333332,
+        "pass2": 38.83333333333333,
+        "pass3": 31.885416666666664,
+        "pass4": 42.66666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 182463
+    },
+    {
+      "id": "canada_05_skewed",
+      "country": "canada",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.5,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 93,
+      "passScores": {
+        "pass1": 222.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 19785
+    },
+    {
+      "id": "canada_06_perspective",
+      "country": "canada",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 78.33333333333333,
+      "passScores": {
+        "pass1": 253.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10333
+    },
+    {
+      "id": "canada_07_partial_crop",
+      "country": "canada",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 10,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 56.333333333333336,
+      "passScores": {
+        "pass1": 208.63333333333333
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10757
+    },
+    {
+      "id": "canada_08_dark",
+      "country": "canada",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 250
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10871
+    },
+    {
+      "id": "canada_09_overexposed",
+      "country": "canada",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 67.66666666666667,
+      "passScores": {
+        "pass1": 241.46666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10459
+    },
+    {
+      "id": "canada_10_glare",
+      "country": "canada",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 249.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13325
+    },
+    {
+      "id": "canada_11_stamp",
+      "country": "canada",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 10,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.333333333333336,
+      "passScores": {
+        "pass1": 223.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13543
+    },
+    {
+      "id": "canada_12_ocr_a_font",
+      "country": "canada",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65,
+      "passScores": {
+        "pass1": 250.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11811
+    },
+    {
+      "id": "canada_13_arial_font",
+      "country": "canada",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 84,
+      "passScores": {
+        "pass1": 255
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9736
+    },
+    {
+      "id": "canada_14_mixed_fonts",
+      "country": "canada",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60,
+      "passScores": {
+        "pass1": 249
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9676
+    },
+    {
+      "id": "canada_15_long_names",
+      "country": "canada",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 249.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10974
+    },
+    {
+      "id": "canada_16_multiple_surnames",
+      "country": "canada",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.333333333333336,
+      "passScores": {
+        "pass1": 249.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10736
+    },
+    {
+      "id": "canada_17_special_characters",
+      "country": "canada",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65,
+      "passScores": {
+        "pass1": 250.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8589
+    },
+    {
+      "id": "canada_18_invalid_mrz",
+      "country": "canada",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 249.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8198
+    },
+    {
+      "id": "canada_19_missing_mrz",
+      "country": "canada",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.666666666666664,
+      "passScores": {
+        "pass1": 213.91666666666669
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 100001
+    },
+    {
+      "id": "canada_20_expired",
+      "country": "canada",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 249.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9802
+    },
+    {
+      "id": "australia_01_clean",
+      "country": "australia",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63.666666666666664,
+      "passScores": {
+        "pass1": 259.91666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9229
+    },
+    {
+      "id": "australia_02_low_dpi",
+      "country": "australia",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63.666666666666664,
+      "passScores": {
+        "pass1": 259.91666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9290
+    },
+    {
+      "id": "australia_03_motion_blur",
+      "country": "australia",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 7,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 38.333333333333336,
+      "passScores": {
+        "pass1": 160.98333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9203
+    },
+    {
+      "id": "australia_04_gaussian_blur",
+      "country": "australia",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.3333333333333333,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass2",
+      "ocrConfidence": 63.333333333333336,
+      "passScores": {
+        "pass1": 47.416666666666664,
+        "pass2": 48.83333333333333,
+        "pass3": 37.76041666666667,
+        "pass4": 48.583333333333336
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 94659
+    },
+    {
+      "id": "australia_05_skewed",
+      "country": "australia",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 6,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 68.33333333333333,
+      "passScores": {
+        "pass1": 206.83333333333331
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8635
+    },
+    {
+      "id": "australia_06_perspective",
+      "country": "australia",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 83,
+      "passScores": {
+        "pass1": 264.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9077
+    },
+    {
+      "id": "australia_07_partial_crop",
+      "country": "australia",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 55.333333333333336,
+      "passScores": {
+        "pass1": 209.63333333333333
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8523
+    },
+    {
+      "id": "australia_08_dark",
+      "country": "australia",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.333333333333336,
+      "passScores": {
+        "pass1": 259.58333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10264
+    },
+    {
+      "id": "australia_09_overexposed",
+      "country": "australia",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 255.81666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9244
+    },
+    {
+      "id": "australia_10_glare",
+      "country": "australia",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.66666666666667,
+      "passScores": {
+        "pass1": 255.96666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8873
+    },
+    {
+      "id": "australia_11_stamp",
+      "country": "australia",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 247.8
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8416
+    },
+    {
+      "id": "australia_12_ocr_a_font",
+      "country": "australia",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 68,
+      "passScores": {
+        "pass1": 256.8
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8901
+    },
+    {
+      "id": "australia_13_arial_font",
+      "country": "australia",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 77.33333333333333,
+      "passScores": {
+        "pass1": 263.33333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14368
+    },
+    {
+      "id": "australia_14_mixed_fonts",
+      "country": "australia",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 259.66666666666663
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14324
+    },
+    {
+      "id": "australia_15_long_names",
+      "country": "australia",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65,
+      "passScores": {
+        "pass1": 256.05
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 6906
+    },
+    {
+      "id": "australia_16_multiple_surnames",
+      "country": "australia",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63.333333333333336,
+      "passScores": {
+        "pass1": 259.83333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9629
+    },
+    {
+      "id": "australia_17_special_characters",
+      "country": "australia",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 71.33333333333333,
+      "passScores": {
+        "pass1": 261.83333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11601
+    },
+    {
+      "id": "australia_18_invalid_mrz",
+      "country": "australia",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 260
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10172
+    },
+    {
+      "id": "australia_19_missing_mrz",
+      "country": "australia",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59,
+      "passScores": {
+        "pass1": 223.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 97441
+    },
+    {
+      "id": "australia_20_expired",
+      "country": "australia",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.33333333333333,
+      "passScores": {
+        "pass1": 260.08333333333337
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8664
+    },
+    {
+      "id": "uae_01_clean",
+      "country": "uae",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.33333333333333,
+      "passScores": {
+        "pass1": 245.88333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11805
+    },
+    {
+      "id": "uae_02_low_dpi",
+      "country": "uae",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.33333333333333,
+      "passScores": {
+        "pass1": 245.88333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11349
+    },
+    {
+      "id": "uae_03_motion_blur",
+      "country": "uae",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 38.666666666666664,
+      "passScores": {
+        "pass1": 169.06666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 7752
+    },
+    {
+      "id": "uae_04_gaussian_blur",
+      "country": "uae",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.5,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass2",
+      "ocrConfidence": 63.333333333333336,
+      "passScores": {
+        "pass1": 28.333333333333332,
+        "pass2": 38.83333333333333,
+        "pass3": 27.354166666666668,
+        "pass4": 31.416666666666664
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 81826
+    },
+    {
+      "id": "uae_05_skewed",
+      "country": "uae",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 7,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61.666666666666664,
+      "passScores": {
+        "pass1": 244.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 7372
+    },
+    {
+      "id": "uae_06_perspective",
+      "country": "uae",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 76.66666666666667,
+      "passScores": {
+        "pass1": 253.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8732
+    },
+    {
+      "id": "uae_07_partial_crop",
+      "country": "uae",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 56.333333333333336,
+      "passScores": {
+        "pass1": 195.68333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 7987
+    },
+    {
+      "id": "uae_08_dark",
+      "country": "uae",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65.33333333333333,
+      "passScores": {
+        "pass1": 250.33333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9541
+    },
+    {
+      "id": "uae_09_overexposed",
+      "country": "uae",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 10,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 66.66666666666667,
+      "passScores": {
+        "pass1": 246.46666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9932
+    },
+    {
+      "id": "uae_10_glare",
+      "country": "uae",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.33333333333333,
+      "passScores": {
+        "pass1": 245.88333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9426
+    },
+    {
+      "id": "uae_11_stamp",
+      "country": "uae",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.333333333333336,
+      "passScores": {
+        "pass1": 237.38333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8626
+    },
+    {
+      "id": "uae_12_ocr_a_font",
+      "country": "uae",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 67.33333333333333,
+      "passScores": {
+        "pass1": 246.63333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10798
+    },
+    {
+      "id": "uae_13_arial_font",
+      "country": "uae",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 76.33333333333333,
+      "passScores": {
+        "pass1": 253.08333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13569
+    },
+    {
+      "id": "uae_14_mixed_fonts",
+      "country": "uae",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65.66666666666667,
+      "passScores": {
+        "pass1": 246.21666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9552
+    },
+    {
+      "id": "uae_15_long_names",
+      "country": "uae",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 245.46666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12110
+    },
+    {
+      "id": "uae_16_multiple_surnames",
+      "country": "uae",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 249.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13200
+    },
+    {
+      "id": "uae_17_special_characters",
+      "country": "uae",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 250
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14078
+    },
+    {
+      "id": "uae_18_invalid_mrz",
+      "country": "uae",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65,
+      "passScores": {
+        "pass1": 246.05
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 15133
+    },
+    {
+      "id": "uae_19_missing_mrz",
+      "country": "uae",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.333333333333336,
+      "passScores": {
+        "pass1": 213.83333333333331
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 125120
+    },
+    {
+      "id": "uae_20_expired",
+      "country": "uae",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.66666666666667,
+      "passScores": {
+        "pass1": 245.96666666666667
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8954
+    },
+    {
+      "id": "india_01_clean",
+      "country": "india",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 240.76666666666665
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10038
+    },
+    {
+      "id": "india_02_low_dpi",
+      "country": "india",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 240.76666666666665
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9047
+    },
+    {
+      "id": "india_03_motion_blur",
+      "country": "india",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 42.666666666666664,
+      "passScores": {
+        "pass1": 143.66666666666669
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 7337
+    },
+    {
+      "id": "india_04_gaussian_blur",
+      "country": "india",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.16666666666666666,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 80,
+      "passScores": {
+        "pass1": 35,
+        "pass2": 15.833333333333332,
+        "pass3": 1.46875,
+        "pass4": 13
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 329067
+    },
+    {
+      "id": "india_05_skewed",
+      "country": "india",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 7,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 66,
+      "passScores": {
+        "pass1": 232.65
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 17807
+    },
+    {
+      "id": "india_06_perspective",
+      "country": "india",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 82.33333333333333,
+      "passScores": {
+        "pass1": 254.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 20115
+    },
+    {
+      "id": "india_07_partial_crop",
+      "country": "india",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 54.666666666666664,
+      "passScores": {
+        "pass1": 191.06666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 29225
+    },
+    {
+      "id": "india_08_dark",
+      "country": "india",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65,
+      "passScores": {
+        "pass1": 241.85
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 19503
+    },
+    {
+      "id": "india_09_overexposed",
+      "country": "india",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 241.61666666666665
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14987
+    },
+    {
+      "id": "india_10_glare",
+      "country": "india",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.666666666666664,
+      "passScores": {
+        "pass1": 240.76666666666665
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 19126
+    },
+    {
+      "id": "india_11_stamp",
+      "country": "india",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58,
+      "passScores": {
+        "pass1": 232.1
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13935
+    },
+    {
+      "id": "india_12_ocr_a_font",
+      "country": "india",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 241.6
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8986
+    },
+    {
+      "id": "india_13_arial_font",
+      "country": "india",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 67.66666666666667,
+      "passScores": {
+        "pass1": 250.91666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8593
+    },
+    {
+      "id": "india_14_mixed_fonts",
+      "country": "india",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.333333333333336,
+      "passScores": {
+        "pass1": 240.68333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9376
+    },
+    {
+      "id": "india_15_long_names",
+      "country": "india",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61.333333333333336,
+      "passScores": {
+        "pass1": 245.13333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9136
+    },
+    {
+      "id": "india_16_multiple_surnames",
+      "country": "india",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63,
+      "passScores": {
+        "pass1": 249.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10957
+    },
+    {
+      "id": "india_17_special_characters",
+      "country": "india",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 250
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10314
+    },
+    {
+      "id": "india_18_invalid_mrz",
+      "country": "india",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60,
+      "passScores": {
+        "pass1": 240.6
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10195
+    },
+    {
+      "id": "india_19_missing_mrz",
+      "country": "india",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.333333333333336,
+      "passScores": {
+        "pass1": 213.83333333333331
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 128117
+    },
+    {
+      "id": "india_20_expired",
+      "country": "india",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.333333333333336,
+      "passScores": {
+        "pass1": 236.48333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11568
+    },
+    {
+      "id": "singapore_01_clean",
+      "country": "singapore",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 71,
+      "passScores": {
+        "pass1": 251.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11310
+    },
+    {
+      "id": "singapore_02_low_dpi",
+      "country": "singapore",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 71,
+      "passScores": {
+        "pass1": 251.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12150
+    },
+    {
+      "id": "singapore_03_motion_blur",
+      "country": "singapore",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 46,
+      "passScores": {
+        "pass1": 168.7
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13471
+    },
+    {
+      "id": "singapore_04_gaussian_blur",
+      "country": "singapore",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass4",
+      "ocrConfidence": 49,
+      "passScores": {
+        "pass1": 28.5,
+        "pass2": 15.833333333333332,
+        "pass3": 25.84375,
+        "pass4": 35.25
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 184832
+    },
+    {
+      "id": "singapore_05_skewed",
+      "country": "singapore",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 7,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 66.33333333333333,
+      "passScores": {
+        "pass1": 236.93333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9839
+    },
+    {
+      "id": "singapore_06_perspective",
+      "country": "singapore",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 76,
+      "passScores": {
+        "pass1": 253
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12350
+    },
+    {
+      "id": "singapore_07_partial_crop",
+      "country": "singapore",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 69,
+      "passScores": {
+        "pass1": 211.8
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11668
+    },
+    {
+      "id": "singapore_08_dark",
+      "country": "singapore",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 66,
+      "passScores": {
+        "pass1": 250.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12269
+    },
+    {
+      "id": "singapore_09_overexposed",
+      "country": "singapore",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65.33333333333333,
+      "passScores": {
+        "pass1": 240.88333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11944
+    },
+    {
+      "id": "singapore_10_glare",
+      "country": "singapore",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 70.66666666666667,
+      "passScores": {
+        "pass1": 251.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13190
+    },
+    {
+      "id": "singapore_11_stamp",
+      "country": "singapore",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 70,
+      "passScores": {
+        "pass1": 251.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14413
+    },
+    {
+      "id": "singapore_12_ocr_a_font",
+      "country": "singapore",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 74.66666666666667,
+      "passScores": {
+        "pass1": 252.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14187
+    },
+    {
+      "id": "singapore_13_arial_font",
+      "country": "singapore",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 66.66666666666667,
+      "passScores": {
+        "pass1": 250.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13174
+    },
+    {
+      "id": "singapore_14_mixed_fonts",
+      "country": "singapore",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 68,
+      "passScores": {
+        "pass1": 251
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10515
+    },
+    {
+      "id": "singapore_15_long_names",
+      "country": "singapore",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10802
+    },
+    {
+      "id": "singapore_16_multiple_surnames",
+      "country": "singapore",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 250
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9596
+    },
+    {
+      "id": "singapore_17_special_characters",
+      "country": "singapore",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 249.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14918
+    },
+    {
+      "id": "singapore_18_invalid_mrz",
+      "country": "singapore",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 75,
+      "passScores": {
+        "pass1": 252.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 14300
+    },
+    {
+      "id": "singapore_19_missing_mrz",
+      "country": "singapore",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 1,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 213.58333333333331
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 115251
+    },
+    {
+      "id": "singapore_20_expired",
+      "country": "singapore",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 71,
+      "passScores": {
+        "pass1": 251.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11305
+    },
+    {
+      "id": "japan_01_clean",
+      "country": "japan",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.333333333333336,
+      "passScores": {
+        "pass1": 248.83333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 15732
+    },
+    {
+      "id": "japan_02_low_dpi",
+      "country": "japan",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.333333333333336,
+      "passScores": {
+        "pass1": 248.83333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 22617
+    },
+    {
+      "id": "japan_03_motion_blur",
+      "country": "japan",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 40,
+      "passScores": {
+        "pass1": 161.4
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 17928
+    },
+    {
+      "id": "japan_04_gaussian_blur",
+      "country": "japan",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 75,
+      "passScores": {
+        "pass1": 33.75,
+        "pass2": 15.833333333333332,
+        "pass3": 17.84375,
+        "pass4": 15.583333333333336
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 139502
+    },
+    {
+      "id": "japan_05_skewed",
+      "country": "japan",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 5,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 67.66666666666667,
+      "passScores": {
+        "pass1": 247.06666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 7432
+    },
+    {
+      "id": "japan_06_perspective",
+      "country": "japan",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 80.33333333333333,
+      "passScores": {
+        "pass1": 254.08333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10233
+    },
+    {
+      "id": "japan_07_partial_crop",
+      "country": "japan",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 3,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.666666666666664,
+      "passScores": {
+        "pass1": 187.66666666666669
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8959
+    },
+    {
+      "id": "japan_08_dark",
+      "country": "japan",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64.66666666666667,
+      "passScores": {
+        "pass1": 250.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8311
+    },
+    {
+      "id": "japan_09_overexposed",
+      "country": "japan",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61.666666666666664,
+      "passScores": {
+        "pass1": 231.56666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9652
+    },
+    {
+      "id": "japan_10_glare",
+      "country": "japan",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60,
+      "passScores": {
+        "pass1": 249
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9261
+    },
+    {
+      "id": "japan_11_stamp",
+      "country": "japan",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 56.666666666666664,
+      "passScores": {
+        "pass1": 240.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8604
+    },
+    {
+      "id": "japan_12_ocr_a_font",
+      "country": "japan",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 63.666666666666664,
+      "passScores": {
+        "pass1": 249.91666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 15075
+    },
+    {
+      "id": "japan_13_arial_font",
+      "country": "japan",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 79.66666666666667,
+      "passScores": {
+        "pass1": 253.91666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13779
+    },
+    {
+      "id": "japan_14_mixed_fonts",
+      "country": "japan",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60.333333333333336,
+      "passScores": {
+        "pass1": 249.08333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9591
+    },
+    {
+      "id": "japan_15_long_names",
+      "country": "japan",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 64,
+      "passScores": {
+        "pass1": 250
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13244
+    },
+    {
+      "id": "japan_16_multiple_surnames",
+      "country": "japan",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 249.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13259
+    },
+    {
+      "id": "japan_17_special_characters",
+      "country": "japan",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 65.33333333333333,
+      "passScores": {
+        "pass1": 250.33333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8178
+    },
+    {
+      "id": "japan_18_invalid_mrz",
+      "country": "japan",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59.666666666666664,
+      "passScores": {
+        "pass1": 248.91666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 8420
+    },
+    {
+      "id": "japan_19_missing_mrz",
+      "country": "japan",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 1,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 57.666666666666664,
+      "passScores": {
+        "pass1": 213.41666666666669
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 106382
+    },
+    {
+      "id": "japan_20_expired",
+      "country": "japan",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 1,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 60,
+      "passScores": {
+        "pass1": 249
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 20304
+    },
+    {
+      "id": "china_01_clean",
+      "country": "china",
+      "variant": "01_clean",
+      "degradation": "none",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13618
+    },
+    {
+      "id": "china_02_low_dpi",
+      "country": "china",
+      "variant": "02_low_dpi",
+      "degradation": "low_dpi",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12449
+    },
+    {
+      "id": "china_03_motion_blur",
+      "country": "china",
+      "variant": "03_motion_blur",
+      "degradation": "motion_blur",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 9,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 39.666666666666664,
+      "passScores": {
+        "pass1": 186.06666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 6532
+    },
+    {
+      "id": "china_04_gaussian_blur",
+      "country": "china",
+      "variant": "04_gaussian_blur",
+      "degradation": "gaussian_blur",
+      "detectedAsVisa": false,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0,
+      "mrzMatch": false,
+      "falseNegative": true,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 42.333333333333336,
+      "passScores": {
+        "pass1": 25.583333333333336,
+        "pass2": 15.833333333333332,
+        "pass3": 1.46875,
+        "pass4": 15.083333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 155653
+    },
+    {
+      "id": "china_05_skewed",
+      "country": "china",
+      "variant": "05_skewed",
+      "degradation": "skewed",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.5,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 70.33333333333333,
+      "passScores": {
+        "pass1": 233.73333333333335
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9975
+    },
+    {
+      "id": "china_06_perspective",
+      "country": "china",
+      "variant": "06_perspective",
+      "degradation": "perspective",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 80.66666666666667,
+      "passScores": {
+        "pass1": 254.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9842
+    },
+    {
+      "id": "china_07_partial_crop",
+      "country": "china",
+      "variant": "07_partial_crop",
+      "degradation": "partial_crop",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 4,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 57,
+      "passScores": {
+        "pass1": 213
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12229
+    },
+    {
+      "id": "china_08_dark",
+      "country": "china",
+      "variant": "08_dark",
+      "degradation": "dark",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 61.666666666666664,
+      "passScores": {
+        "pass1": 249.41666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 19208
+    },
+    {
+      "id": "china_09_overexposed",
+      "country": "china",
+      "variant": "09_overexposed",
+      "degradation": "overexposed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62,
+      "passScores": {
+        "pass1": 249.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 11114
+    },
+    {
+      "id": "china_10_glare",
+      "country": "china",
+      "variant": "10_glare",
+      "degradation": "glare",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 59,
+      "passScores": {
+        "pass1": 248.75
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 10253
+    },
+    {
+      "id": "china_11_stamp",
+      "country": "china",
+      "variant": "11_stamp",
+      "degradation": "stamp",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 56.666666666666664,
+      "passScores": {
+        "pass1": 248.16666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9921
+    },
+    {
+      "id": "china_12_ocr_a_font",
+      "country": "china",
+      "variant": "12_ocr_a_font",
+      "degradation": "font_ocr_a",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 249.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12478
+    },
+    {
+      "id": "china_13_arial_font",
+      "country": "china",
+      "variant": "13_arial_font",
+      "degradation": "font_arial",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 78.33333333333333,
+      "passScores": {
+        "pass1": 253.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 16640
+    },
+    {
+      "id": "china_14_mixed_fonts",
+      "country": "china",
+      "variant": "14_mixed_fonts",
+      "degradation": "font_mixed",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 11,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 19742
+    },
+    {
+      "id": "china_15_long_names",
+      "country": "china",
+      "variant": "15_long_names",
+      "degradation": "content_long_names",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 16125
+    },
+    {
+      "id": "china_16_multiple_surnames",
+      "country": "china",
+      "variant": "16_multiple_surnames",
+      "degradation": "content_multi_surname",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 67.66666666666667,
+      "passScores": {
+        "pass1": 250.91666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 12780
+    },
+    {
+      "id": "china_17_special_characters",
+      "country": "china",
+      "variant": "17_special_characters",
+      "degradation": "content_special_chars",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 62.666666666666664,
+      "passScores": {
+        "pass1": 249.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 9635
+    },
+    {
+      "id": "china_18_invalid_mrz",
+      "country": "china",
+      "variant": "18_invalid_mrz",
+      "degradation": "content_invalid_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": false,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.333333333333336,
+      "passScores": {
+        "pass1": 248.58333333333334
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 13682
+    },
+    {
+      "id": "china_19_missing_mrz",
+      "country": "china",
+      "variant": "19_missing_mrz",
+      "degradation": "content_missing_mrz",
+      "detectedAsVisa": true,
+      "mrzValid": false,
+      "fieldHits": 0,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.6666666666666666,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58,
+      "passScores": {
+        "pass1": 213.5
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 135114
+    },
+    {
+      "id": "china_20_expired",
+      "country": "china",
+      "variant": "20_expired",
+      "degradation": "content_expired",
+      "detectedAsVisa": true,
+      "mrzValid": true,
+      "fieldHits": 8,
+      "fieldTotal": 11,
+      "ocrCharAccuracy": 0.8333333333333334,
+      "mrzMatch": true,
+      "falseNegative": false,
+      "ocrPassWinner": "pass1",
+      "ocrConfidence": 58.666666666666664,
+      "passScores": {
+        "pass1": 248.66666666666666
+      },
+      "recoveredFields": 0,
+      "elapsedMs": 7191
+    }
+  ]
+}

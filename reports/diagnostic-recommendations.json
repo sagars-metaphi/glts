@@ -1,0 +1,52 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "rootCauseId": "label_corruption",
+      "recommendation": "Add fuzzy label matching (Levenshtein ≤1) for 统一社会信用代码, 注册资本, 经营范围, 营业期限.",
+      "impact": 13
+    },
+    {
+      "priority": 2,
+      "rootCauseId": "high_confidence_wrong",
+      "recommendation": "Penalize confidence when rawSegment diverges from extracted value or label boundary missing.",
+      "impact": 11
+    },
+    {
+      "priority": 3,
+      "rootCauseId": "limited_company_ocr",
+      "recommendation": "Do not auto-correct companyName; for companyType only, score 有很→有限 via confusion resolver.",
+      "impact": 7
+    },
+    {
+      "priority": 4,
+      "rootCauseId": "business_scope_label_break",
+      "recommendation": "Fuzzy-match 经营范围 label; fallback to line after 住所 if scope label missing.",
+      "impact": 5
+    },
+    {
+      "priority": 5,
+      "rootCauseId": "address_ocr_noise",
+      "recommendation": "Strip isolated underscores/punctuation in address post-process without inventing text.",
+      "impact": 2
+    },
+    {
+      "priority": 6,
+      "rootCauseId": "date_ocr_noise",
+      "recommendation": "Pre-clean dates: remove ! _ and rejoin split year tokens before normalizeChineseDate.",
+      "impact": 2
+    },
+    {
+      "priority": 7,
+      "rootCauseId": "punctuation_in_credit_code",
+      "recommendation": "Strip punctuation from credit-code window before candidate search; retry O→0 / l→1 normalization per candidate.",
+      "impact": 1
+    },
+    {
+      "priority": 8,
+      "rootCauseId": "credit_checksum_reject",
+      "recommendation": "When expected region has punctuation, expand candidate search with punctuation-stripped sliding windows.",
+      "impact": 1
+    }
+  ]
+}

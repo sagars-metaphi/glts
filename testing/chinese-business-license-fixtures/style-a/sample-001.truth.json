@@ -1,0 +1,22 @@
+{
+  "documentId": "style-a-sample-001",
+  "style": "style-a",
+  "styleName": "clean_modern_scan",
+  "corruptionLevel": "none",
+  "seed": 10104,
+  "fields": {
+    "companyName": "深圳金鼎投资有限公司",
+    "creditCode": "91420100484553110J",
+    "legalRepresentative": "朱敏",
+    "companyType": "股份有限公司",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2017-10-08",
+    "businessTerm": "2017年10月08日至长期",
+    "address": "杭州市南山区科技园南路18号",
+    "businessScope": "建筑工程施工；装饰材料销售",
+    "registrationAuthority": "深圳市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91420100484553110J\n名称深圳金鼎投资有限公司注册资本壹亿元人民币\n类型股份有限公司成立日期2017年10月08日\n法定代表人朱敏住所杭州市南山区科技园南路18号\n营业期限2017年10月08日至长期\n经营范围建筑工程施工；装饰材料销售\n登记机关深圳市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:46.084Z"
+}

@@ -1,0 +1,22 @@
+{
+  "documentId": "style-f-sample-001",
+  "style": "style-f",
+  "styleName": "stamp_overlap",
+  "corruptionLevel": "medium",
+  "seed": 109834,
+  "fields": {
+    "companyName": "重庆星辰传媒有限公司",
+    "creditCode": "914403005332005732",
+    "legalRepresentative": "孙强",
+    "companyType": "有限责任公司",
+    "registeredCapital": "壹佰万元人民币",
+    "establishmentDate": "2001-05-13",
+    "businessTerm": "2001年05月13日至长期",
+    "address": "深圳市浦东新区张江路66号",
+    "businessScope": "广告设计；市场营销策划；品牌管理",
+    "registrationAuthority": "广州市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 914403005332005732\n名称重庆星辰传媒有限公司注册资本壹佰万元人民币\n类型有限责任公司成立日期2001年05月13日\n法定代表人孙强住所深圳市浦东新区张江路66号\n营业期限2001年05月13日至长期\n经营范围广告设计；市场营销策划；品牌管理\n登记机关广州市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:54.697Z"
+}

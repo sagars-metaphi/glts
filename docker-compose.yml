@@ -1,0 +1,57 @@
+services:
+  api:
+    build:
+      context: .
+      target: development
+    ports:
+      - "${PORT:-3001}:3001"
+    environment:
+      PORT: 3001
+      NODE_ENV: development
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/greencard
+      REDIS_URL: redis://redis:6379
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - ./uploads:/app/uploads
+      - ./output:/app/output
+    depends_on:
+      - postgres
+      - redis
+    command: npm run dev
+
+  api-prod:
+    build:
+      context: .
+      target: production
+    ports:
+      - "${PORT:-3001}:3001"
+    environment:
+      PORT: 3001
+      NODE_ENV: production
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/greencard
+      REDIS_URL: redis://redis:6379
+    depends_on:
+      - postgres
+      - redis
+    profiles:
+      - prod
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: greencard
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:

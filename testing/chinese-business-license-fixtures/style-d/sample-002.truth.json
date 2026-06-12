@@ -1,0 +1,22 @@
+{
+  "documentId": "style-d-sample-002",
+  "style": "style-d",
+  "styleName": "rotated_90",
+  "corruptionLevel": "medium",
+  "seed": 80046,
+  "fields": {
+    "companyName": "深圳博雅文化有限公司",
+    "creditCode": "914401002118530670",
+    "legalRepresentative": "胡超",
+    "companyType": "股份有限公司",
+    "registeredCapital": "伍仟万元人民币",
+    "establishmentDate": "2015-09-02",
+    "businessTerm": "2015年09月02日至2035年12月31日",
+    "address": "成都市西湖区文三路168号",
+    "businessScope": "教育咨询服务；会议及展览服务",
+    "registrationAuthority": "深圳市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 914401002118530670\n名称深圳博雅文化有限公司注册资本伍仟万元人民币\n类型股份有限公司成立日期2015年09月02日\n法定代表人胡超住所成都市西湖区文三路168号\n营业期限2015年09月02日至2035年12月31日\n经营范围教育咨询服务；会议及展览服务\n登记机关深圳市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:53.006Z"
+}

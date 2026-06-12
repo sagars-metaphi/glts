@@ -1,0 +1,22 @@
+{
+  "documentId": "style-j-sample-002",
+  "style": "style-j",
+  "styleName": "multi_page_id_card",
+  "corruptionLevel": "low",
+  "seed": 199722,
+  "fields": {
+    "companyName": "杭州万象零售有限公司",
+    "creditCode": "91510100444606480N",
+    "legalRepresentative": "胡明",
+    "companyType": "有限责任公司",
+    "registeredCapital": "伍仟万元人民币",
+    "establishmentDate": "2013-08-26",
+    "businessTerm": "2013年08月26日至长期",
+    "address": "东莞市朝阳区建国路100号",
+    "businessScope": "软件开发；技术咨询；技术服务",
+    "registrationAuthority": "上海市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91510100444606480N\n名称杭州万象零售有限公司注册资本伍仟万元人民币\n类型有限责任公司成立日期2013年08月26日\n法定代表人胡明住所东莞市朝阳区建国路100号\n营业期限2013年08月26日至长期\n经营范围软件开发；技术咨询；技术服务\n登记机关上海市市场监督管理局",
+  "idCardText": "居民身份证\n姓名 胡明\n性别 男\n民族 汉\n出生 1985年01月01日\n公民身份号码 440681198501011234\n签发机关 佛山市公安局\n有效期限 2020.01.01-2040.01.01",
+  "generatedAt": "2026-06-11T10:04:04.555Z"
+}

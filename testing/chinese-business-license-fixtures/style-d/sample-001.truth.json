@@ -1,0 +1,22 @@
+{
+  "documentId": "style-d-sample-001",
+  "style": "style-d",
+  "styleName": "rotated_90",
+  "corruptionLevel": "medium",
+  "seed": 69942,
+  "fields": {
+    "companyName": "北京星辰传媒有限公司",
+    "creditCode": "91110000475478019G",
+    "legalRepresentative": "朱雪保",
+    "companyType": "有限责任公司",
+    "registeredCapital": "壹仟万元人民币",
+    "establishmentDate": "2010-10-25",
+    "businessTerm": "2010年10月25日至长期",
+    "address": "西安市海淀区中关村大街168号",
+    "businessScope": "医疗器械销售；健康咨询服务",
+    "registrationAuthority": "杭州市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91110000475478019G\n名称北京星辰传媒有限公司注册资本壹仟万元人民币\n类型有限责任公司成立日期2010年10月25日\n法定代表人朱雪保住所西安市海淀区中关村大街168号\n营业期限2010年10月25日至长期\n经营范围医疗器械销售；健康咨询服务\n登记机关杭州市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:52.447Z"
+}

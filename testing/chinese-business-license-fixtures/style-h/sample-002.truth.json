@@ -1,0 +1,22 @@
+{
+  "documentId": "style-h-sample-002",
+  "style": "style-h",
+  "styleName": "noise",
+  "corruptionLevel": "high",
+  "seed": 159830,
+  "fields": {
+    "companyName": "南京浦东物流有限公司",
+    "creditCode": "91440100810336865E",
+    "legalRepresentative": "孙伟",
+    "companyType": "有限责任公司(自然人投资或控股)",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2002-12-27",
+    "businessTerm": "2002年12月27日至长期",
+    "address": "杭州市朝阳区建国路200号",
+    "businessScope": "电子产品销售；货物进出口；技术进出口",
+    "registrationAuthority": "上海市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91440100810336865E\n名称南京浦东物流有限公司注册资本壹亿元人民币\n类型有限责任公司(自然人投资或控股)成立日期2002年12月27日\n法定代表人孙伟住所杭州市朝阳区建国路200号\n营业期限2002年12月27日至长期\n经营范围电子产品销售；货物进出口；技术进出口\n登记机关上海市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:59.759Z"
+}

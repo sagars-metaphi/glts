@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-11T10:04:05.301Z",
+  "durationMs": 19237,
+  "perStyle": 2,
+  "styles": [
+    "style-a",
+    "style-b",
+    "style-c",
+    "style-d",
+    "style-e",
+    "style-f",
+    "style-g",
+    "style-h",
+    "style-i",
+    "style-j"
+  ],
+  "total": 20,
+  "documents": [
+    {
+      "id": "style-a-sample-001",
+      "style": "style-a",
+      "styleName": "clean_modern_scan",
+      "corruptionLevel": "none",
+      "imagePath": "testing/chinese-business-license-fixtures/style-a/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-a/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-a/sample-001.truth.json",
+      "seed": 10104
+    },
+    {
+      "id": "style-a-sample-002",
+      "style": "style-a",
+      "styleName": "clean_modern_scan",
+      "corruptionLevel": "none",
+      "imagePath": "testing/chinese-business-license-fixtures/style-a/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-a/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-a/sample-002.truth.json",
+      "seed": 20208
+    },
+    {
+      "id": "style-b-sample-001",
+      "style": "style-b",
+      "styleName": "low_dpi",
+      "corruptionLevel": "low",
+      "imagePath": "testing/chinese-business-license-fixtures/style-b/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-b/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-b/sample-001.truth.json",
+      "seed": 30050
+    },
+    {
+      "id": "style-b-sample-002",
+      "style": "style-b",
+      "styleName": "low_dpi",
+      "corruptionLevel": "low",
+      "imagePath": "testing/chinese-business-license-fixtures/style-b/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-b/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-b/sample-002.truth.json",
+      "seed": 40154
+    },
+    {
+      "id": "style-c-sample-001",
+      "style": "style-c",
+      "styleName": "watermark",
+      "corruptionLevel": "low",
+      "imagePath": "testing/chinese-business-license-fixtures/style-c/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-c/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-c/sample-001.truth.json",
+      "seed": 49996
+    },
+    {
+      "id": "style-c-sample-002",
+      "style": "style-c",
+      "styleName": "watermark",
+      "corruptionLevel": "low",
+      "imagePath": "testing/chinese-business-license-fixtures/style-c/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-c/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-c/sample-002.truth.json",
+      "seed": 60100
+    },
+    {
+      "id": "style-d-sample-001",
+      "style": "style-d",
+      "styleName": "rotated_90",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-d/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-d/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-d/sample-001.truth.json",
+      "seed": 69942
+    },
+    {
+      "id": "style-d-sample-002",
+      "style": "style-d",
+      "styleName": "rotated_90",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-d/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-d/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-d/sample-002.truth.json",
+      "seed": 80046
+    },
+    {
+      "id": "style-e-sample-001",
+      "style": "style-e",
+      "styleName": "rotated_180",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-e/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-e/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-e/sample-001.truth.json",
+      "seed": 89888
+    },
+    {
+      "id": "style-e-sample-002",
+      "style": "style-e",
+      "styleName": "rotated_180",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-e/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-e/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-e/sample-002.truth.json",
+      "seed": 99992
+    },
+    {
+      "id": "style-f-sample-001",
+      "style": "style-f",
+      "styleName": "stamp_overlap",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-f/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-f/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-f/sample-001.truth.json",
+      "seed": 109834
+    },
+    {
+      "id": "style-f-sample-002",
+      "style": "style-f",
+      "styleName": "stamp_overlap",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-f/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-f/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-f/sample-002.truth.json",
+      "seed": 119938
+    },
+    {
+      "id": "style-g-sample-001",
+      "style": "style-g",
+      "styleName": "blurred",
+      "corruptionLevel": "high",
+      "imagePath": "testing/chinese-business-license-fixtures/style-g/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-g/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-g/sample-001.truth.json",
+      "seed": 129780
+    },
+    {
+      "id": "style-g-sample-002",
+      "style": "style-g",
+      "styleName": "blurred",
+      "corruptionLevel": "high",
+      "imagePath": "testing/chinese-business-license-fixtures/style-g/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-g/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-g/sample-002.truth.json",
+      "seed": 139884
+    },
+    {
+      "id": "style-h-sample-001",
+      "style": "style-h",
+      "styleName": "noise",
+      "corruptionLevel": "high",
+      "imagePath": "testing/chinese-business-license-fixtures/style-h/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-h/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-h/sample-001.truth.json",
+      "seed": 149726
+    },
+    {
+      "id": "style-h-sample-002",
+      "style": "style-h",
+      "styleName": "noise",
+      "corruptionLevel": "high",
+      "imagePath": "testing/chinese-business-license-fixtures/style-h/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-h/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-h/sample-002.truth.json",
+      "seed": 159830
+    },
+    {
+      "id": "style-i-sample-001",
+      "style": "style-i",
+      "styleName": "mixed_chinese_english",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-i/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-i/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-i/sample-001.truth.json",
+      "seed": 169672
+    },
+    {
+      "id": "style-i-sample-002",
+      "style": "style-i",
+      "styleName": "mixed_chinese_english",
+      "corruptionLevel": "medium",
+      "imagePath": "testing/chinese-business-license-fixtures/style-i/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-i/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-i/sample-002.truth.json",
+      "seed": 179776
+    },
+    {
+      "id": "style-j-sample-001",
+      "style": "style-j",
+      "styleName": "multi_page_id_card",
+      "corruptionLevel": "low",
+      "imagePath": "testing/chinese-business-license-fixtures/style-j/sample-001.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-j/sample-001.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-j/sample-001.truth.json",
+      "seed": 189618
+    },
+    {
+      "id": "style-j-sample-002",
+      "style": "style-j",
+      "styleName": "multi_page_id_card",
+      "corruptionLevel": "low",
+      "imagePath": "testing/chinese-business-license-fixtures/style-j/sample-002.png",
+      "pdfPath": "testing/chinese-business-license-fixtures/style-j/sample-002.pdf",
+      "truthPath": "testing/chinese-business-license-fixtures/style-j/sample-002.truth.json",
+      "seed": 199722
+    }
+  ]
+}

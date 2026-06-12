@@ -1,0 +1,22 @@
+{
+  "documentId": "style-e-sample-001",
+  "style": "style-e",
+  "styleName": "rotated_180",
+  "corruptionLevel": "medium",
+  "seed": 89888,
+  "fields": {
+    "companyName": "上海恒信贸易有限公司",
+    "creditCode": "91420100825128376G",
+    "legalRepresentative": "张敏",
+    "companyType": "有限责任公司(自然人投资或控股)",
+    "registeredCapital": "壹佰万元人民币",
+    "establishmentDate": "2011-03-26",
+    "businessTerm": "2011年03月26日至2035年12月31日",
+    "address": "苏州市武侯区天府大道168号",
+    "businessScope": "家具制造；家具销售；家居用品制造",
+    "registrationAuthority": "佛山市顺德区市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91420100825128376G\n名称上海恒信贸易有限公司注册资本壹佰万元人民币\n类型有限责任公司(自然人投资或控股)成立日期2011年03月26日\n法定代表人张敏住所苏州市武侯区天府大道168号\n营业期限2011年03月26日至2035年12月31日\n经营范围家具制造；家具销售；家居用品制造\n登记机关佛山市顺德区市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:53.539Z"
+}

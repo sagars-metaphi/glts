@@ -1,0 +1,35 @@
+{
+  "id": "crew-application-form",
+  "name": "Crew Application Form",
+  "windowSize": 150,
+  "required": [
+    "fullName",
+    "passportNumber",
+    "rank"
+  ],
+  "fields": {
+    "fullName": {
+      "label": "Full Name",
+      "aliases": [
+        "Name",
+        "Candidate Name"
+      ],
+      "required": true
+    },
+    "passportNumber": {
+      "label": "Passport No",
+      "aliases": [
+        "Passport Number"
+      ],
+      "valuePattern": "[A-Z0-9]{6,12}",
+      "required": true
+    },
+    "rank": {
+      "label": "Rank",
+      "aliases": [
+        "Designation"
+      ],
+      "required": true
+    }
+  }
+}

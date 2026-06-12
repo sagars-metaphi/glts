@@ -1,0 +1,22 @@
+{
+  "documentId": "style-j-sample-001",
+  "style": "style-j",
+  "styleName": "multi_page_id_card",
+  "corruptionLevel": "low",
+  "seed": 189618,
+  "fields": {
+    "companyName": "东莞宏图工程有限公司",
+    "creditCode": "91310000652481970G",
+    "legalRepresentative": "刘建华",
+    "companyType": "有限责任公司(自然人投资或控股)",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2011-08-04",
+    "businessTerm": "2011年08月04日至2035年12月31日",
+    "address": "北京市西湖区文三路1号",
+    "businessScope": "教育咨询服务；会议及展览服务",
+    "registrationAuthority": "佛山市顺德区市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91310000652481970G\n名称东莞宏图工程有限公司注册资本壹亿元人民币\n类型有限责任公司(自然人投资或控股)成立日期2011年08月04日\n法定代表人刘建华住所北京市西湖区文三路1号\n营业期限2011年08月04日至2035年12月31日\n经营范围教育咨询服务；会议及展览服务\n登记机关佛山市顺德区市场监督管理局",
+  "idCardText": "居民身份证\n姓名 刘建华\n性别 男\n民族 汉\n出生 1985年01月01日\n公民身份号码 440681198501011234\n签发机关 佛山市公安局\n有效期限 2020.01.01-2040.01.01",
+  "generatedAt": "2026-06-11T10:04:03.730Z"
+}

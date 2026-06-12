@@ -1,0 +1,30 @@
+{
+  "id": "invitation-letter-sample",
+  "name": "Invitation Letter Sample",
+  "body": "Dear {{name}},\n\nPassport: {{passport}}\nRank: {{rank}}\nNationality: {{nationality}}\nVessel: {{vessel}}\nJoining Date: {{joiningDate}}\n\nRegards,\n{{company}}",
+  "fields": {
+    "name": {
+      "label": "Name",
+      "required": true
+    },
+    "passport": {
+      "label": "Passport No",
+      "required": true
+    },
+    "rank": {
+      "label": "Rank"
+    },
+    "nationality": {
+      "label": "Nationality"
+    },
+    "vessel": {
+      "label": "Vessel"
+    },
+    "joiningDate": {
+      "label": "Joining Date"
+    },
+    "company": {
+      "label": "Company"
+    }
+  }
+}

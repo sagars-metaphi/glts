@@ -1,0 +1,22 @@
+{
+  "documentId": "style-f-sample-002",
+  "style": "style-f",
+  "styleName": "stamp_overlap",
+  "corruptionLevel": "medium",
+  "seed": 119938,
+  "fields": {
+    "companyName": "成都星辰传媒股份有限公司",
+    "creditCode": "91110000575785188F",
+    "legalRepresentative": "杨杰",
+    "companyType": "有限责任公司(自然人独资)",
+    "registeredCapital": "壹亿元人民币",
+    "establishmentDate": "2016-10-02",
+    "businessTerm": "2016年10月02日至长期",
+    "address": "重庆市浦东新区张江路200号",
+    "businessScope": "建筑工程施工；装饰材料销售",
+    "registrationAuthority": "成都市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91110000575785188F\n名称成都星辰传媒股份有限公司注册资本壹亿元人民币\n类型有限责任公司(自然人独资)成立日期2016年10月02日\n法定代表人杨杰住所重庆市浦东新区张江路200号\n营业期限2016年10月02日至长期\n经营范围建筑工程施工；装饰材料销售\n登记机关成都市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:55.328Z"
+}

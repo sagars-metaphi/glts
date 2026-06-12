@@ -1,0 +1,22 @@
+{
+  "documentId": "style-g-sample-001",
+  "style": "style-g",
+  "styleName": "blurred",
+  "corruptionLevel": "high",
+  "seed": 129780,
+  "fields": {
+    "companyName": "苏州天宇通信有限公司",
+    "creditCode": "91330100618524466R",
+    "legalRepresentative": "黄雪保",
+    "companyType": "有限责任公司(自然人独资)",
+    "registeredCapital": "壹仟万元人民币",
+    "establishmentDate": "2004-09-04",
+    "businessTerm": "2004年09月04日至长期",
+    "address": "武汉市江汉区建设大道200号",
+    "businessScope": "软件开发；技术咨询；技术服务",
+    "registrationAuthority": "上海市市场监督管理局"
+  },
+  "licenseText": "营业执照\n统一社会信用代码 91330100618524466R\n名称苏州天宇通信有限公司注册资本壹仟万元人民币\n类型有限责任公司(自然人独资)成立日期2004年09月04日\n法定代表人黄雪保住所武汉市江汉区建设大道200号\n营业期限2004年09月04日至长期\n经营范围软件开发；技术咨询；技术服务\n登记机关上海市市场监督管理局",
+  "idCardText": null,
+  "generatedAt": "2026-06-11T10:03:55.786Z"
+}

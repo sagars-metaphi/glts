@@ -1,0 +1,71 @@
+{
+  "buckets": [
+    {
+      "min": 0,
+      "max": 0.5,
+      "label": "0.0-0.5",
+      "predicted": 2,
+      "correct": 0,
+      "businessCorrect": 0,
+      "extractionCorrect": 2,
+      "actualAccuracy": 0,
+      "businessAccuracy": 0,
+      "extractionAccuracy": 1
+    },
+    {
+      "min": 0.5,
+      "max": 0.7,
+      "label": "0.5-0.7",
+      "predicted": 7,
+      "correct": 0,
+      "businessCorrect": 0,
+      "extractionCorrect": 6,
+      "actualAccuracy": 0,
+      "businessAccuracy": 0,
+      "extractionAccuracy": 0.8571428571428571
+    },
+    {
+      "min": 0.7,
+      "max": 0.8,
+      "label": "0.7-0.8",
+      "predicted": 34,
+      "correct": 23,
+      "businessCorrect": 23,
+      "extractionCorrect": 34,
+      "actualAccuracy": 0.6764705882352942,
+      "businessAccuracy": 0.6764705882352942,
+      "extractionAccuracy": 1
+    },
+    {
+      "min": 0.8,
+      "max": 0.9,
+      "label": "0.8-0.9",
+      "predicted": 9,
+      "correct": 4,
+      "businessCorrect": 4,
+      "extractionCorrect": 8,
+      "actualAccuracy": 0.4444444444444444,
+      "businessAccuracy": 0.4444444444444444,
+      "extractionAccuracy": 0.8888888888888888
+    },
+    {
+      "min": 0.9,
+      "max": 1.01,
+      "label": "0.9-1.0",
+      "predicted": 148,
+      "correct": 140,
+      "businessCorrect": 140,
+      "extractionCorrect": 142,
+      "actualAccuracy": 0.9459459459459459,
+      "businessAccuracy": 0.9459459459459459,
+      "extractionAccuracy": 0.9594594594594594
+    }
+  ],
+  "wellCalibrated": false,
+  "highConfidenceBusinessAccuracy": 0.9459459459459459,
+  "highConfidenceExtractionAccuracy": 0.9594594594594594,
+  "notes": [
+    "confidence>=0.90 bucket business accuracy 94.6% is below 98% target",
+    "confidence>=0.90 bucket extraction accuracy 95.9% is below 98% target"
+  ]
+}

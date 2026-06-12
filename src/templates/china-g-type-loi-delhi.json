@@ -1,0 +1,120 @@
+{
+  "id": "china-g-type-loi-delhi",
+  "name": "China G Type LOI Format - Delhi Location",
+  "windowSize": 200,
+  "body": "ON COMPANY LETTERHEAD\n\nDate: {{date}}\n\nTo: The Visa Officer,\nEmbassy of The People's Republic of China, New Delhi\n\nDear Sir/Madam,\n\nLETTER OF INVITATION\n\nPlease note the following person intends to join {{joinPort}} while calling {{callPort}} around {{joiningDate}}\n\nName, Surname: {{nameSurname}}\nRank: {{rank}}\nNationality: {{nationality}}\nDob/Pob: {{dobPob}}\nPassport no and validity: {{passportNoAndValidity}}\nCDC no and validity: {{cdcNoAndValidity}}\n\nWe, as agent of the above-mentioned vessel, hereby guarantee we will meet them at {{airportName}} airport, arrange all necessary Immigration formalities for them and escort them to join the vessel. We will be responsible for their expenses in {{portCity}} and arrange their repatriation in case of need.\n\nKindly grant Chinese visa with {{entriesRequested}} ({{stayDays}} for duration of stay, valid for {{visaValidityMonths}}) accordingly.\n\n(Signature and Stamp)\n\nCompany name: {{companyName}}\nAddress: {{companyAddress}}\nContact no: {{companyContact}}\nAuthorise person name: {{authorizedPersonName}}\nE-mail: {{email}}",
+  "required": [
+    "date",
+    "nameSurname",
+    "rank",
+    "nationality",
+    "dobPob",
+    "passportNoAndValidity",
+    "joinPort",
+    "callPort",
+    "joiningDate",
+    "entriesRequested",
+    "stayDays",
+    "visaValidityMonths"
+  ],
+  "fields": {
+    "date": {
+      "label": "Date",
+      "aliases": ["Date:", "Dated"],
+      "valuePattern": "\\d{4}\\s*[\\/\\-]\\s*\\d{1,2}\\s*[\\/\\-]\\s*\\d{1,2}|\\d{4}\\s*/\\s*MM\\s*/\\s*DD|YYYY\\s*/\\s*MM\\s*/\\s*DD",
+      "required": true
+    },
+    "joinPort": {
+      "label": "intends to join",
+      "aliases": ["join vessel at", "Join port"],
+      "required": true
+    },
+    "callPort": {
+      "label": "while calling",
+      "aliases": ["calling port", "call port"],
+      "required": true
+    },
+    "joiningDate": {
+      "label": "around",
+      "aliases": ["join on", "scheduled date"],
+      "valuePattern": "\\d{4}[\\/\\-]\\d{1,2}[\\/\\-]\\d{1,2}|YYYY\\/MM\\/DD",
+      "required": true
+    },
+    "nameSurname": {
+      "label": "Name, Surname",
+      "aliases": ["Name Surname", "Surname / Name", "Candidate Name"],
+      "required": true
+    },
+    "rank": {
+      "label": "Rank",
+      "aliases": ["Rank :", "Designation"],
+      "required": true
+    },
+    "nationality": {
+      "label": "Nationality",
+      "aliases": ["Nationality :", "Country"],
+      "required": true
+    },
+    "dobPob": {
+      "label": "Dob/Pob",
+      "aliases": ["DOB/POB", "Date of Birth", "Birthdate / Place", "Dob/Pob :"],
+      "valuePattern": "\\d{4}[\\/\\-]\\d{1,2}[\\/\\-]\\d{1,2}|YYYY\\/\\s*MM\\/\\s*DD",
+      "required": true
+    },
+    "passportNoAndValidity": {
+      "label": "Passport no and validity",
+      "aliases": ["Passport No and Validity", "Passport number and validity", "Passport no & validity"],
+      "required": true
+    },
+    "cdcNoAndValidity": {
+      "label": "CDC no and validity",
+      "aliases": ["CDC No and Validity", "CDC number and validity", "Seaman book no and validity"]
+    },
+    "airportName": {
+      "label": "meet them at",
+      "aliases": ["airport", "meet at airport"]
+    },
+    "portCity": {
+      "label": "expenses in",
+      "aliases": ["Qingdao", "port city", "responsible for their expenses in"]
+    },
+    "entriesRequested": {
+      "label": "single entry",
+      "aliases": ["Single Entry", "double entry", "multiple entry"],
+      "required": true
+    },
+    "stayDays": {
+      "label": "duration of stay",
+      "aliases": ["days for duration of stay", "07 days", "stay of"],
+      "valuePattern": "\\d{1,2}\\s*days?",
+      "required": true
+    },
+    "visaValidityMonths": {
+      "label": "valid for",
+      "aliases": ["3 months", "months validity", "validity"],
+      "valuePattern": "\\d+\\s*months?",
+      "required": true
+    },
+    "companyName": {
+      "label": "Company name",
+      "aliases": ["Indian company name", "Agent company"]
+    },
+    "companyAddress": {
+      "label": "Address",
+      "aliases": ["Company Address", "Office Address"]
+    },
+    "companyContact": {
+      "label": "Contact no",
+      "aliases": ["Contact No", "Contact Number", "Phone"]
+    },
+    "authorizedPersonName": {
+      "label": "Authorise person name",
+      "aliases": ["Authorize person name", "Authorized person", "Authorised person"]
+    },
+    "email": {
+      "label": "E-mail",
+      "aliases": ["Email", "E-mail:", "Email Address"],
+      "valuePattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
+    }
+  }
+}
